@@ -28,7 +28,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml'
 # gem 'json', '1.8.3'
 gem 'underscore-rails'
-gem "alongslide", github: "zibs/alongslide", branch: :master, ref: "4bbdc9eb8d66b582984adce90f2c08b61e3e051f"
+# gem "alongslide", github: "zibs/alongslide", branch: :master, ref: "4bbdc9eb8d66b582984adce90f2c08b61e3e051f"
+
+gem "alongslide"
 gem "treetop"
 
 # Use Redis adapter to run Action Cable in production
