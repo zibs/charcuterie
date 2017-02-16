@@ -1,16 +1,14 @@
-    + panel intro pin top two-thirds now
+    + panel intro fullscreen fade-in
 
-    # **Alongslide** is a responsive, parallax-inspired presentation framework for long-form reading on the web, employing a lightweight templating syntax for [Markdown](http://daringfireball.net/projects/markdown/). Scroll right »
+    # My Argument Is Wrong Depending On How You’re Framing It, But »
+    ##### - Eli Zibin
+    <section class="row">
+      <section class="col-md-6 offset-md-3">
+        <p>'98. Good v. bad poetry. The distinction is not useful. The whole idea assumes a shared set of articulatable values by which to make such a judgment. It assumes, if not the perfect poem, at least the theory of limits, the most perfect poem. How would you proceed to make such a distinction?' — The Chinese Notebook, Ron Silliman
+        </p>
+      </section>
+    </section>
 
-    + panel footer pin bottom one-third now
-
-    Alongslide's [source code](https://github.com/triplecanopy/alongslide) is now publicly available.
-
-    [Show Markdown Source](#)
-
-    Created by and for [Triple Canopy](http://canopycanopycanopy.com). Copyright 2013, Canopy Canopy Canopy, Inc.
-
-    + unpin intro
 
     + section technology
 
@@ -24,7 +22,8 @@
 
     + unpin technology-layers
 
-    + unpin footer
+
+
 
     + panel aspect fullscreen fade-out
 

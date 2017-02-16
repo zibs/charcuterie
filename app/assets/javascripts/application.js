@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require underscore
 //= require alongslide
+//= require bootstrap
 //= require turbolinks
 //= require_tree .

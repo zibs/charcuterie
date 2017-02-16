@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml'
 # gem 'json', '1.8.3'
 gem 'underscore-rails'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 # gem "alongslide", github: "zibs/alongslide", branch: :master, ref: "4bbdc9eb8d66b582984adce90f2c08b61e3e051f"
 
 gem "alongslide"
