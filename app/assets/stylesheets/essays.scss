@@ -1,3 +1,84 @@
 // Place all the styles related to the essays controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+  font-family:'SimSun';
+  src:font-url('SimSun.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  // src:font-url('icofonts.eot?#iefix') format('embedded-opentype')
+}
+
+@font-face {
+  font-family:'larish_neue_semibold';
+  src:font-url('larish_neue_semibold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'larish_neue_semibold';
+}
+.site-wrap {
+  margin-top: 25px;
+}
+
+.site-map {
+  margin-bottom: 10px;
+  li {
+    a {
+      color: black;
+      font-family: 'larish_neue_semibold';
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.contributors {
+  display: inline;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 0.7em;
+  li {
+    margin-bottom: 15px;
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+    p {
+      line-height: 0.9em;
+    }
+  }
+}
+
+.issue {
+  img {
+    position: absolute;
+    right: 0;
+    max-height: 350px;
+  }
+}
+
+.center-img {
+  margin: auto;
+ position: absolute;
+ top: 0; left: 0; bottom: 0; right: 0;
+ z-index: 9999;
+ max-height: 200px;
+
+}
+.masthead  {
+  .charc-logo {
+    font-size: 1.2em;
+    color: #ED1C24;
+  }
+  p {
+    font-family: 'SimSun', serif, sans-serif;
+    line-height: 18px;
+    font-size: 0.7em;
+    padding-right: 5em;
+    text-align: justify;
+  }
+}
