@@ -1,34 +1,46 @@
 <main class="container-fluid site-wrap">
   <%= image_tag "charc-logo", class: "img-fluid center-img" %>
+
   <ul class="row nav site-map">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Info</a>
+      <a class="nav-link" href="#info">Info</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Order</a>
+      <a class="nav-link" href="#order">Order</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link" href="#contact">Contact</a>
     </li>
   </ul>
 
   <article class="row">
-    <section class="masthead col-6">
-      <p>
-        <span class="charc-logo"><strong>Charcuterie</strong></span> strives to provide a forum for experimental writing and informed
+    <section class="about-section col-6">
+      <p class="masthead">
+        <%= link_to "Charcuterie", root_path, class: 'charc-logo' %>
+        strives to provide a forum for experimental writing and informed
         polemics without pedantry. It assembles a polyphony of inquiry and documents the messy landscape of opinion and critique that unravels in close proximity to where we work, live and make art in Vancouver.
       </p>
-      <br>
-      <p>
-        We participate in a social economy where we are assigned many or all of the following roles: of assembling, arranging, presenting, hosting, being hosted, socializing, and at the end of the night, maybe we’re a little peckish,
-        a little traumatized, possibly imbued with opinion.(1) The trouble with introductions is the consequence of expectation and accidental making of promises. Treat this not as an introduction, but as a late night gathering,
-        a weathered, but ebullient, aftermath of some sort.(2) Some sentiments
-        thrown around after galvanizing at the closest apartment. We have assembled writing for casual consumption and social stimulation. Our purpose is not to sate or enlighten, if that is the meaning of your presence, you should eat something before coming over. A guiding principle of this modest publication comes from a cursory definition of our namesake: The art of preparing various meats...in order to present them in the most diverse ways. The three texts assembled here, in their own method, on a scale of subtle to overt polemics, all thoroughly questioned the bureaucratic, professional and dogmatic hurdles we are beholden to as practitioners of art, poetry, and criticism. Perhaps in the guise of complaint or confusion at the status quo, these texts share instances of the battles we chose (an expression often meaning those we chose not to choose), when we show our teeth, and where we find solace from the decorum of dismissal. We have asked ourselves and our contributors to leash our professional performances at the door, to see if beyond that, there is any exhausted and messily expressed truth left to share around a cutting board or a bowl of chips.
-      </p>
-      <br>
-      <p>Editors: Bopha Chhay, Steffanie Ling, Eli Zibin</p>
-      <p>Design: Victoria Lum</p>
-      <p>Web: Eli Zibin</p>
+      <section id="info" class="hidden info-text">
+        <p>
+          We participate in a social economy where we are assigned many or all of the following roles: of assembling, arranging, presenting, hosting, being hosted, socializing, and at the end of the night, maybe we’re a little peckish,
+          a little traumatized, possibly imbued with opinion.(1) The trouble with introductions is the consequence of expectation and accidental making of promises. Treat this not as an introduction, but as a late night gathering,
+          a weathered, but ebullient, aftermath of some sort.(2) Some sentiments
+          thrown around after galvanizing at the closest apartment. We have assembled writing for casual consumption and social stimulation. Our purpose is not to sate or enlighten, if that is the meaning of your presence, you should eat something before coming over. A guiding principle of this modest publication comes from a cursory definition of our namesake: The art of preparing various meats...in order to present them in the most diverse ways. The three texts assembled here, in their own method, on a scale of subtle to overt polemics, all thoroughly questioned the bureaucratic, professional and dogmatic hurdles we are beholden to as practitioners of art, poetry, and criticism. Perhaps in the guise of complaint or confusion at the status quo, these texts share instances of the battles we chose (an expression often meaning those we chose not to choose), when we show our teeth, and where we find solace from the decorum of dismissal. We have asked ourselves and our contributors to leash our professional performances at the door, to see if beyond that, there is any exhausted and messily expressed truth left to share around a cutting board or a bowl of chips.
+        </p>
+      </section>
+
+      <section id="order" class="hidden order-section">
+        <p>To order a copy of Charcuterie, please email us at <a href="mailto:info@charcuterie.party">info@charcuterie.party</a></p>
+        <p>You can also pick up copies at the following locations:</p>
+        <br>
+        <ul>
+          <li>Or Gallery</li>
+          <li>Read Books</li>
+          <li>Art Metropole</li>
+          <li>Printed Matter</li>
+          <li>Motto Berlin</li>
+        </ul>
+      </section>
     </section>
     <section class="issues-wrapper col-6">
       <section class="row issue">
@@ -52,4 +64,9 @@
       </section>
     </section>
   </article>
+  <section class="footer">
+    <p>Editors: Bopha Chhay, Steffanie Ling, Eli Zibin</p>
+    <p>Design: Victoria Lum</p>
+    <p>Web: Eli Zibin</p>
+  </section>
 </main>

@@ -20,7 +20,15 @@ body {
   font-family: 'larish_neue_semibold';
 }
 .site-wrap {
-  margin-top: 25px;
+  padding-top: 25px;
+  height: 100vh;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  font-family: 'SimSun', serif, sans-serif;
+  line-height: 18px;
+  font-size: 0.7em;
 }
 
 .site-map {
@@ -67,18 +75,38 @@ body {
  top: 0; left: 0; bottom: 0; right: 0;
  z-index: 9999;
  max-height: 200px;
-
 }
-.masthead  {
+.hidden {
+  display: none;
+}
+.about-section  {
   .charc-logo {
     font-size: 1.2em;
+    font-weight: bold;
     color: #ED1C24;
+  }
+  .masthead {
+    margin-bottom: 35px;
   }
   p {
     font-family: 'SimSun', serif, sans-serif;
     line-height: 18px;
     font-size: 0.7em;
     padding-right: 5em;
-    text-align: justify;
+    // text-align: justify;
   }
+}
+
+
+.order-section {
+  font-family: 'SimSun', serif, sans-serif;
+ ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 0.7em;
+  line-height: 1.2em;
+ }
+ a {
+   color: #ED1C24;
+ }
 }
