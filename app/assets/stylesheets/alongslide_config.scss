@@ -63,7 +63,7 @@ html, body {
   line-height: 1.5em;
 }
 #content-display p {
-  text-indent: 6%;
+  text-indent: 0%;
 }
 #content-display h4 {
   font: inherit;
@@ -83,41 +83,68 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+#frames .panels [data-alongslide-id=intro].panel h4 {
+  font-family: 'larish_neue_semibold';
+  padding-right: 0%;
+  // position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+}
 #frames .panels [data-alongslide-id=intro].panel {
-  color: white;
+  background: image-url("jaco-spare-room.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  color: black;
   font-family:'larish_neue_semibold';
+
+  div.intro-card {
+    margin-top: 5%;
+    height: 80%;
+    width: 30%;
+    left: 50%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+  }
+
   p.jaco-byline {
     font-family:'SimSun';
-    margin-bottom: 75px;
+    font-size: 0.5em;
+    margin-left: 5%
   }
-  .jaco-bio {
+  p.jaco-bio {
+    text-indent: 0;
     position: relative;
-    p {
     font-family:'SimSun';
-     font-size: 0.6em;
+     font-size: 0.5em;
      position: absolute;
+     margin: 5%;
      bottom: 0;
-    }
   }
   .jaco-text-intro {
     p {
       font-size: 0.6em;
-      // font-weight: bold;
       line-height: 18px;
     }
   }
 }
-#frames .panels [data-alongslide-id=intro].panel h1 {
-  font-family: 'larish_neue_semibold';
-  padding-right: 20%;
-  margin-bottom: 50px;
-}
-#frames .panels [data-alongslide-id=intro].panel {
-  background-color: rgb(241, 130, 106);
-}
-
 
 #frames .panels [data-alongslide-id=second-page].panel {
+  div.second-page {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  div.footnotes {
+    margin-right: 2%;
+    margin-top: 10%;
+    p {
+      font-size: 0.4em;
+      font-family:'SimSun';
+    }
+  }
   p {
     font-family: 'larish_neue_semibold';
     font-size: 0.6em;
@@ -125,6 +152,18 @@ html, body {
 }
 
 #frames .panels [data-alongslide-id=third-page].panel {
+  div.third-page {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  div.footnotes {
+    margin-right: 2%;
+    margin-top: 10%;
+    p {
+      font-size: 0.4em;
+      font-family:'SimSun';
+    }
+  }
   p {
     font-family: 'larish_neue_semibold';
     font-size: 0.6em;
@@ -132,49 +171,42 @@ html, body {
 }
 
 #frames .panels [data-alongslide-id=fourth-page].panel {
-  background-color: black;
+  background-color: white;
+  div.fourth-page {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
   p {
     font-family: 'larish_neue_semibold';
-    color: white;
+    color: black;
     font-size: 0.6em;
-    &:nth-child(2) {
-      padding-left: 50px;
-      text-indent: 0;
-    }
+    text-indent: 0;
   }
 
   img {
-    max-height: 200px;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left: 0;
-    right: 0;
-    margin:auto;
   }
-  p.bottom {
-    position: absolute;
-    bottom: 0;
+  p.caption {
+    font-size: 0.4em;
+    font-family: 'SimSun'
+  }
+  p.footnote {
     font-size: 0.4em;
     font-family: 'SimSun'
   }
 }
 
 #frames .panels [data-alongslide-id=fifth-page].panel {
+  background-color: white;
+  div.fifth-page {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
   p {
     font-family: 'larish_neue_semibold';
-    // color: white;
     font-size: 0.6em;
-    margin-right: 10px;
-    // &:nth-child(2) {
-    //   padding-left: 50px;
-    //   text-indent: 0;
-    // }
   }
-
   img {
-    max-height: 450px;
-    float: right;
+    max-height: 250px;
     margin-left: 15px;
     margin-bottom: 15px;
   }
@@ -184,56 +216,66 @@ html, body {
     font-size: 0.4em;
     font-family: 'SimSun'
   }
-}
-#frames .panels [data-alongslide-id=sixth-page].panel {
-  p {
-    font-family: 'larish_neue_semibold';
-    font-size: 0.6em;
-    margin-right: 10px;
-    text-indent: none;
-  }
-
-  img {
-    max-height: 350px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-  }
-  .jaco-footnotes {
-   p {
-     font-family: 'SimSun';
-     font-size: 0.5em;
-     text-indent: 0;
-   }
-  }
-}
-#frames .panels [data-alongslide-id=footnotes-page].panel {
-  background-color: black;
-  .jaco-footnotes {
-    position: absolute;
-    bottom: 0;
-   p {
-     color: white;
-     font-family: 'SimSun';
-     font-size: 0.5em;
-     text-indent: 0;
-   }
+  div.footnotes {
+    margin-top: 15%;
+    p {
+      font-size: 0.4em;
+      font-family:'SimSun';
+    }
   }
 }
 
-
-@media screen and (max-width: 1024px) {
-
-
-}
-
-@media screen and (max-width: 950px) {
-  // p {
-  //   font-size: 0.2em;
-  // }
-}
-
-
-@media screen and (max-width: 650px) {
-
-
-}
+//
+// #frames .panels [data-alongslide-id=sixth-page].panel {
+//   p {
+//     font-family: 'larish_neue_semibold';
+//     font-size: 0.6em;
+//     margin-right: 10px;
+//     text-indent: none;
+//   }
+//
+//   img {
+//     max-height: 350px;
+//     margin-right: 25px;
+//     margin-bottom: 25px;
+//   }
+//
+//   .jaco-footnotes {
+//    p {
+//      font-family: 'SimSun';
+//      font-size: 0.5em;
+//      text-indent: 0;
+//    }
+//   }
+// }
+// #frames .panels [data-alongslide-id=footnotes-page].panel {
+//   background-color: black;
+//   .jaco-footnotes {
+//     position: absolute;
+//     bottom: 0;
+//    p {
+//      color: white;
+//      font-family: 'SimSun';
+//      font-size: 0.5em;
+//      text-indent: 0;
+//    }
+//   }
+// }
+//
+//
+// @media screen and (max-width: 1024px) {
+//
+//
+// }
+//
+// @media screen and (max-width: 950px) {
+//   // p {
+//   //   font-size: 0.2em;
+//   // }
+// }
+//
+//
+// @media screen and (max-width: 650px) {
+//
+//
+// }
