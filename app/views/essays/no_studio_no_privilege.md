@@ -1,7 +1,6 @@
     + panel intro fullscreen fade-in
 
     <div class ="close"><a href="">&times;</a></div>
-    <div>
 
     <div class="intro-card">
       <h4>No Studio, No Privilege</h4>
@@ -9,17 +8,11 @@
       <p class = "jaco-bio">Jacobo Zambrano is an artist from Caracas, Venezuela living in Vancouver, Canada. Zambrano is interested in historical cultural narratives that are often considered as defining milestones in current socio-political and economic contexts, mostly in relation to the global peripheries. The North- South Divide constitutes one of the primary subjects of research in his conceptual practice, as this particular paradigm defines how identities have been constructed due to modernity, the artist focuses on the potential for new discourses that challenge the dynamic between the Old World and the New World within his own immediate context. Zambrano often adopts sculpture in conjunction with installation as formal tools in his explorations.</p>
     </div>
 
-
-
-      <div class = "jaco-text-intro col-md-6">
-
-      </div>
-    </div>
-
-
     + section second
 
     + panel second-page fullscreen
+
+    <div class ="close"><a href="">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-9">
@@ -36,6 +29,8 @@
 
     + panel third-page fullscreen
 
+    <div class ="close"><a href="">&times;</a></div>
+
     <div class="row third-page">
       <div class="col-md-9">
       <p>Spare Room is not publicly funded nor does it stipulate demanding career prerequisites to the individuals who are interested in collaborating within it. Conceived as a direct critique to the notion of “the white cube”, it examines institutionalized modes of exhibition making and also challenges key concepts such as collaboration, environment, situation and space.</p>
@@ -50,6 +45,8 @@
     </div>
 
     + panel fourth-page fullscreen fade-out
+
+    <div class ="close"><a href="">&times;</a></div>
 
     <div class="row fourth-page">
       <div class = "col-md-7">
@@ -67,6 +64,8 @@
     </div>
 
     + panel fifth-page fullscreen fade-in
+
+    <div class ="close"><a href="">&times;</a></div>
 
     <div class="row fifth-page">
       <div class = "col-md-10">
