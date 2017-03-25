@@ -1,0 +1,104 @@
+#frames .panels [data-alongslide-id=intro-ross].panel h4 {
+  font-family: 'larish_neue_semibold';
+  padding-right: 0%;
+  // position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#frames .panels [data-alongslide-id=intro-ross].panel {
+
+  color: black;
+  font-family:'larish_neue_semibold';
+
+  div.intro-card {
+    margin-top: 2%;
+    height: 90%;
+    width: 30%;
+    left: 10%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+  }
+
+  img.looking {
+    max-height: 600px;
+    position: absolute;
+    // left: 20%;
+    right: 0;
+    float: right;
+  }
+
+  p.byline {
+    font-family:'SimSun';
+    font-size: 0.5em;
+    margin-left: 5%
+  }
+  p.bio {
+    text-indent: 0;
+    position: relative;
+    font-family:'SimSun';
+     font-size: 0.5em;
+     position: absolute;
+     margin: 5%;
+     bottom: 0;
+  }
+}
+
+#frames .panels [data-alongslide-id=ross-second-page].panel {
+
+  color: black;
+  font-family:'larish_neue_semibold';
+  margin-top: 2%;
+  margin-left: 2%;
+
+  div.preface {
+    p {
+      font-size: 0.9em;
+    }
+    margin-bottom: 35px;
+  }
+  p {
+    font-size: 0.6em;
+  }
+  div.drop {
+    margin-top: 45px;
+  }
+}
+
+#frames .panels [data-alongslide-id=ross-third-page].panel {
+
+  color: black;
+  font-family:'larish_neue_semibold';
+  margin-top: 2%;
+  margin-left: 2%;
+
+  div.preface {
+    p {
+      font-size: 0.9em;
+    }
+    margin-bottom: 35px;
+  }
+  p {
+    font-size: 0.6em;
+  }
+}
+#frames .panels [data-alongslide-id=ross-fourth-page].panel {
+
+  color: black;
+  font-family:'larish_neue_semibold';
+  margin-top: 2%;
+  margin-left: 2%;
+
+  div.preface {
+    p {
+      font-size: 0.9em;
+    }
+    margin-bottom: 35px;
+  }
+  p {
+    font-size: 0.6em;
+    margin-bottom: 35px;
+  }
+}

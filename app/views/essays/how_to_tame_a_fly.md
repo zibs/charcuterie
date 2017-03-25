@@ -1,0 +1,77 @@
+    + panel intro-ross fullscreen fade-in
+
+    <div class ="close float-left"><a href="">&times;</a></div>
+
+    <div class="intro-card">
+      <h4>How to Tame a Fly</h4>
+      <h4>or</h4>
+      <h4>Some Unsolicited Commentary on Jacqueline Kiyomi Gordon's 'A Space For Looking Is a Space For Listening', At Western Front, Vancouver, January 22nd-February 27th, 2016</h4>
+      <p class ="byline">by Jacquelyn Ross</p>
+      <p class ="bio">Jacquelyn Ross is a writer and critic based in Vancouver and Toronto. She edits the literary journal Young Adult, and her art criticism has been published in Canada and internationally. Recent book projects include Mayonnaise, a collection of poems (2016), and Drawings on Yellow Paper, a collaboration with artist Katie Lyle (forthcoming August 2016). She runs Blank Cheque Press from the comfort of her living room, and is currently at work on her first book of stories.</p>
+    </div>
+    <img class= "looking img-fluid" src="../assets/ross-1.png" alt="Looking Listening">
+
+
+    + section second
+
+    + panel ross-second-page fullscreen fade-out
+
+    <div class ="close"><a href="">&times;</a></div>
+
+    <div class="row">
+      <div class="col-md-4 preface">
+        <p><em>I put that word on the page <br>But he added the apostrophe.</em></p>
+        <p>—Lydia Davis, “Collaboration With Fly</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <p>I write to Steff to tell her about this art review I wrote of the show, and its subsequent rejection. The editor: “We hesitated to ask for a rewrite of your text.” “Finally, due to a large number of texts received, the editorial committee advised me not to accept it.” Then some unsolicited words of wisdom: “If you want to submit a new text for future editions, here are a few suggestions for a review:” “It is not recommended for the review to serve any other means than that of presenting and analyzing an exhibition and the works in the show…”</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <p>I’m thinking about that sound that the radio makes when it’s stuck between stations on the tuning dial. Or when a person turns on an amplifier before connecting it to a guitar. The buzz, the feedback: all forms of interference. In the kitchen we have a toaster and a microwave and an electric kettle, but we can only use one at a time, or the fuse blows. Funny that listening to records really loud while blow-drying my hair has never caused it to do this...</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 offset-md-3 drop">
+        <p>I’m apparently unfocused today. My mind is wandering. I take a Motrin to sort myself out; chug a tall glass of water to make it go down.</p>
+      </div>
+    </div>
+
+    + panel ross-third-page fullscreen fade-out
+
+    <div class ="close"><a href="">&times;</a></div>
+
+    <div class="row">
+      <div class="col-md-5">
+        <p>“Jacqueline Kiyomi Gordon’s exhibition at the Western Front is all about the shape of sound,” my prior self writes, three weeks ago under the din of a dying light bulb. I’m squinting at some blurry photos I took of the show a few days earlier; photos I didn’t know at the time would be so bad. “The gallery is carpeted and filled with structures designed to either deflect or absorb: an audio-visual jungle gym of aluminum, insulation, ceramics, wool and foam. Hanging overhead, two small directional speakers emit a high-pitched, metallic hum, while a low frequency reverberates out of a subwoofer resting on the gallery floor. My head is buzzing as I navigate the space. I feel like a fly with a terrible migraine, doing its best to avoid the flypaper.”</p>
+        <p>Steff says that line of mine about the fly with the migraine sounds like “some very Schjeldahlian neurosis.” I decide to take this as a compliment. Peter Schjeldahl, that aging and (charmingly) whiney long-time art critic at the New Yorker, is never shy about bringing himself into the art. He describes his beginnings as a starving poet who wrote art criticism because all the poets did. His writing evades jargon, is rich with anecdotes, and is seemingly unafraid of designating things “good art” or “bad art,” though he has sometimes been derided as a “populist” critic. Well, I think to myself, if I feel like a fly—a fly with a migraine—then I’m entitled to say so. Schjeldahl gives me permission! Is it relevant to the review, one might ask? Well, I have so many migraines these days. And when I do make it out of bed between the magic hours of 12 and 5, I take the bus, in the rain, to go see art—but my experience of these shows is of one long, sopping, pulsing dream.</p>
+        <p>And what about this, “I feel…”? I love the provocation of feelings in the face of hard intellect. I am not made of hard things. My stomach is frequently upset. I’m flat-footed and have a painful time walking barefoot across pebbly beaches. If you pinch me, I will yell. I may even slap you.</p>
+      </div>
+      <div class="col-md-5">
+        <p>The editor: “It is more suitable to establish the exhibition and its works within a central theme, a common thread.” The secret is that I have none. I fail to mention that in my reply. It’s some scandal that I’m even allowed to continue writing this stuff.</p>
+        <p>My former self continues, writing: “The speakers used by Gordon are a weapon of sorts, originating from the Long Range Acoustic Devices used in military communications, non-lethal crowd control, or deterring wildlife from airport runways. They emit sound like a laser beam, cutting through space like a knife...” I’m googling “How to Tame a Fly” now for inspiration, and am briefly transfixed by a 55-second YouTube clip of a man gently prodding a black fly with the point of a chopping knife. The fly doesn’t budge, too busy cleaning itself.</p>
+        <p>That’s what we were like, too, loitering outside the 7-Eleven. Sleepy and high. Immune to prodding. All the girls looking at our chipped nails as we smoked, imagining maybe we looked like movie stars rather than the disillusioned teenagers we really were: our pockets full of stolen sour keys. “I tread carefully through the gallery, guided by this invisible fencing,” I write, “ and am reminded of the high-frequency speakers that were similarly installed outside the 7-Eleven by my old high school, supposedly to discourage teenagers from loitering at the entrance. The ‘teenager frequency,’ we called it, though I can’t remember now whether it had any effect—only that it symbolized for me an entirely new level of dystopic reality: one that traded visible barriers for invisible ones.” What kind of dystopia might have awaited me, I wonder, had I remained there, loitering in the parking lot? Some of those kids got into a lot of trouble later in life, I know. Others became cops. But who gets to be the protagonist in this story? </p>
+      </div>
+    </div>
+
+    + panel ross-fourth-page fullscreen fade-out
+
+    <div class ="close"><a href="">&times;</a></div>
+
+    <div class="row">
+      <div class="col-md-10 offset-md-2">
+        <p>“Two large sculptural apparatuses dominate the gallery, eerily titled Tammy IV and Barbara (2016),” I concede. Am I learning, for the first time, the kind-of-sexy first names of teachers formerly known only as The Disciplinarian, or Mrs. X? The video’s up and I’m led down a black hole of Related Videos on “How to Tame Flyaways”. Tammy and Barbara are probably the kinds of women who are immune to things like flyaways. The editor: “It is important to describe before analyzing to better allow the reader some thought on the matter.” So I try it: “In the first work, a freestanding aluminum structure supports a strip curtain of translucent vinyl, a flesh-coloured ceramic slab attached to a heavy pivoting bracket, and a hanging panel composed of insulation, woven wool roving and a veil of long, blonde hair. An HSS speaker directs a beam of high-frequency oscillator tones at the ceramic panel with an intensity that I experience with discomfort as I cross its path…”</p>
+        <p>I recall learning about a female astronaut named Barbara Morgan who was on TV a lot in the early 2000s. Apparently she started out as an elementary school teacher, but had been selected in the eighties to train alongside fellow teacher Christa McAuliffe as part of NASA’s Teachers in Space program. Christa was set to be the first Teacher in Space, but was killed on her first mission, when the 1986 Challenger exploded mid-air. Eventually it was Barbara after all who became the first Teacher in Space, two decades later. Could the Barbara in the exhibition have been a prototype for someone? Interference has a strange way of controlling destiny.</p>
+        <p>“The exhibition as a whole has a disquieting aesthetic,” I write, “in its combination of metal and textile, industrial and handmade constructions.” I am full of speculations now. I’m trying to say something about the show’s metallic stillness, or its fleshy deconstructions of something post-post-human, but my mind is contaminated by the blazing afterimage of the Space Shuttle Challenger. “[The exhibition] has a feeling of recycled air, of sterilization, institutionalization,” I try, “like an insane asylum padded for noise-reduction and the prevention of self-harm...” But what I’m actually thinking: that metallic hum—my friendly fly—could that really be the sound of outer space?</p>
+        <p>In her essay “Madness, Rack, and Honey,” poet Mary Ruefle talks about the notion of metaphor as an event in which energy is exchanged between two things. She cites a few lines by a Persian poet who reflects on having written something “so sweet” that “the flies are beginning to torment [him],” and I’m thinking about this idea as I revisit Jacqueline Gordon’s exhibition and my own struggle to come to terms with it through writing. I don’t know whether this is a “good” review or a “bad” review. Because I’m too busy thinking about how an object’s sweetness can be exchanged for ecstasy, and then flies, and then torment, shifting erratically between incongruous things in a continuous, equivalent conversion. What kind of energy is being exchanged here? I wonder, as I put the kettle on to boil and pop a brave slice of bread into the toaster simultaneously. As if to say, “This kitchen fuse may blow, but I’m still hopeful that, one day, these things will coexist!</p>
+      </div>
+      <div class="col-md-5">
+
+      </div>
+    </div>

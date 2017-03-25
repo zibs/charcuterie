@@ -8,8 +8,6 @@
       <p class ="bio">Eli Zibin holds a BA in English Literature from the University of British Columbia. His poetry appeared in Lemon Hound’s “New Vancouver Poets”folio curated by Poetry is Dead.</p>
     </div>
 
-
-
     + section second
 
     + panel zibin-second-page fullscreen fade-out

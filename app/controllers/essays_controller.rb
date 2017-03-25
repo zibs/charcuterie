@@ -8,6 +8,10 @@ class EssaysController < ApplicationController
     @markdown_content = File.read(File.join(Rails.root.to_s, 'app/views/essays', 'my_argument_is_wrong_but.md'))
   end
 
+  def how_to_tame_a_fly
+    @markdown_content = File.read(File.join(Rails.root.to_s, 'app/views/essays', 'how_to_tame_a_fly.md'))
+  end
+
   def index
 
   end

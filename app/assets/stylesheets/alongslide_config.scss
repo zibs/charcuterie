@@ -69,6 +69,7 @@ html, body {
   font: inherit;
 }
 .close {
+  z-index: 1000;
   a {
     color: rgb(85, 85, 85);
     font-family: "SimSun";
