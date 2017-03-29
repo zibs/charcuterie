@@ -1,5 +1,5 @@
 class EssaysController < ApplicationController
-  http_basic_authenticate_with name: "test", password: "testing"
+  
   def no_studio_no_privilege
     @markdown_content = File.read(File.join(Rails.root.to_s, 'app/views/essays', 'no_studio_no_privilege.md'))
   end
