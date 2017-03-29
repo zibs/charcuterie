@@ -37,6 +37,7 @@ body {
     a {
       color: black;
       font-family: 'larish_neue_semibold';
+
       &:hover {
         text-decoration: underline;
       }
@@ -53,9 +54,13 @@ body {
   list-style-type: none;
   font-size: 0.8em;
   padding-right: 7.5px;
+  position: relative;
   li {
+    position: relative;
     margin-bottom: 15px;
     a {
+      position: relative;
+      z-index: 10000;
       color: black;
       text-decoration: underline;
     }
