@@ -1,6 +1,6 @@
     + panel intro-zibin fullscreen fade-in
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
     <img class= "philosopher-party img-fluid" src="../assets/zibin-1.jpg" alt="Philosopher Party">
     <div class="intro-card">
       <h4>My Argument Is Wrong, But</h4>
@@ -12,7 +12,7 @@
 
     + panel zibin-second-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 preface">
@@ -23,7 +23,7 @@
 
     + panel zibin-third-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -33,7 +33,7 @@
 
     + panel zibin-fourth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -43,7 +43,7 @@
 
     + panel zibin-fifth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -53,7 +53,7 @@
 
     + panel zibin-sixth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -63,7 +63,7 @@
 
     + panel zibin-seventh-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -73,7 +73,7 @@
 
     + panel zibin-eighth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -83,7 +83,7 @@
 
     + panel zibin-ninth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -93,7 +93,7 @@
 
     + panel zibin-tenth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">
@@ -103,7 +103,7 @@
 
     + panel zibin-eleventh-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-10 offset-md-1 thesis">

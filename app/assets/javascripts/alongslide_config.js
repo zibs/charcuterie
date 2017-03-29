@@ -62,6 +62,6 @@ $(window).resize(function() {
 
 // Log render progress to console
 //
-$(document).on('alongslide.progress', function(e, progress) {
-  if (console) console.log("Alongslide render progress: " + (progress * 100) + "%");
-})
+// $(document).on('alongslide.progress', function(e, progress) {
+//   if (console) console.log("Alongslide render progress: " + (progress * 100) + "%");
+// })

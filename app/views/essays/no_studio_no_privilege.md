@@ -1,6 +1,6 @@
     + panel intro fullscreen fade-in
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="intro-card">
       <h4>No Studio, No Privilege</h4>
@@ -12,7 +12,7 @@
 
     + panel second-page fullscreen
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row second-page">
       <div class="col-md-9">
@@ -29,7 +29,7 @@
 
     + panel third-page fullscreen
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row third-page">
       <div class="col-md-9">
@@ -46,7 +46,7 @@
 
     + panel fourth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row fourth-page">
       <div class = "col-md-7">
@@ -65,7 +65,7 @@
 
     + panel fifth-page fullscreen fade-in
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row fifth-page">
       <div class = "col-md-10">

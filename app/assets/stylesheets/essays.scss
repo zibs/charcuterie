@@ -18,17 +18,17 @@
 
 body {
   font-family: 'larish_neue_semibold';
+  overflow-y: hidden;
 }
 .site-wrap {
   padding-top: 25px;
   height: 100vh;
 }
 .footer {
-  position: absolute;
-  bottom: 20px;
+  margin-top: 15px;
   font-family: 'SimSun', serif, sans-serif;
   line-height: 18px;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .site-map {
@@ -40,6 +40,9 @@ body {
       &:hover {
         text-decoration: underline;
       }
+      &:active {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -48,8 +51,8 @@ body {
   margin-left: 0;
   padding-left: 0;
   list-style-type: none;
-  font-size: 0.7em;
-  padding-right: 10.5px;
+  font-size: 0.8em;
+  padding-right: 7.5px;
   li {
     margin-bottom: 15px;
     a {
@@ -64,7 +67,7 @@ body {
 
 .issue {
   img {
-    max-height: 350px;
+    max-height: 335px;
   }
 }
 
@@ -73,7 +76,7 @@ body {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   z-index: 9999;
-  max-height: 200px;
+  max-height: 250px;
 }
 
 .hidden {
@@ -91,7 +94,7 @@ body {
   p {
     font-family: 'SimSun', serif, sans-serif;
     line-height: 18px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     padding-right: 5em;
     // text-align: justify;
   }
@@ -103,7 +106,7 @@ body {
  ul {
   list-style-type: none;
   padding-left: 0;
-  font-size: 0.7em;
+  font-size: 0.8em;
   line-height: 1.2em;
  }
  a {

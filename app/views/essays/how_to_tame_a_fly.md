@@ -1,6 +1,6 @@
     + panel intro-ross fullscreen fade-in
 
-    <div class ="close float-left"><a href="">&times;</a></div>
+    <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="intro-card">
       <h4>How to Tame a Fly</h4>
@@ -16,7 +16,7 @@
 
     + panel ross-second-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row">
       <div class="col-md-4 preface">
@@ -45,7 +45,7 @@
 
     + panel ross-third-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row">
       <div class="col-md-5">
@@ -62,7 +62,7 @@
 
     + panel ross-fourth-page fullscreen fade-out
 
-    <div class ="close"><a href="">&times;</a></div>
+    <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="row">
       <div class="col-md-10 offset-md-2">

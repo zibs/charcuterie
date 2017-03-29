@@ -135,7 +135,7 @@ class window.FixedAspect
 
       # burn styles into CSS
       #
-      console.log contentsFrame
+
       $panel.css Styles::formatPercentageValues panelFrame
       $contents.css Styles::formatPercentageValues contentsFrame
 
@@ -143,8 +143,6 @@ class window.FixedAspect
   #
   innerFrame: ($panel) ->
     $contents = $panel.find('> .contents')
-    # console.log('ahdauhsdiuahsd')
-    # console.log(parseInt($contents.css('left')) / $panel.width())
 
     left: parseInt($contents.css('left')) / $panel.width()
     top: parseInt($contents.css('top')) / $panel.height()
