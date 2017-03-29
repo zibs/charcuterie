@@ -1,5 +1,6 @@
 document.addEventListener("turbolinks:load", function(){
   $(".nav-link").click(function(e){
+    e.preventDefault()
     e.stopPropagation()
     var id = $(this).attr('href')
     $('section.active').removeClass('active').addClass('hidden');
