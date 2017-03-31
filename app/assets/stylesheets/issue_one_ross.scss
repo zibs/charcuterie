@@ -12,6 +12,7 @@
 
   div.intro-card {
     margin-top: 2%;
+
     height: 90%;
     width: 30%;
     left: 10%;
@@ -20,6 +21,12 @@
     z-index: 15;
     font-weight: bold;
     border: 2px solid black;
+    h4 {
+      margin-right: 15px
+    }
+    p {
+      margin-right: 15px;
+    }
   }
 
   img.looking {
