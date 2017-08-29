@@ -76,14 +76,19 @@ body {
 }
 
 .issue {
+  margin-bottom: 100px;
+  .carousel-item {
+    min-width: 300px;
+  }
   img {
     max-height: 410.5px;
+
   }
 }
 
 .center-img {
   margin: auto;
-  position: absolute;
+  position: fixed;
   top: 0; left: 0; bottom: 0; right: 0;
   z-index: 9999;
   max-height: 250px;
