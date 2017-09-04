@@ -9,8 +9,8 @@
 
 words = JSON.parse(File.read("#{Rails.root}/words.json"))
 words.map do |word|
-  name = word["WORD"].strip.downcase.titleize
+  title = word["WORD"].strip.downcase.titleize
   definition = word["DEFINITION"].delete("[]").gsub('"', '').gsub("'", '').gsub("’", '').gsub("‘", '').strip.downcase.capitalize
 
-  Word.create(name: name, definition: definition )
+  Word.create(word: title, definition: definition )
 end
