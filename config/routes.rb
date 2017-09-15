@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  resources :words, only: [:index, :show]
+  resources :words, only: [:index, :show] do
+    get :random, on: :collection
+  end
+
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
