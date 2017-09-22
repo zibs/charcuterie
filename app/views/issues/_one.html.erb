@@ -1,6 +1,6 @@
 <section class="row issue">
-  <ul class="contributors col-md-10">
-    <p>1. You should eat something before coming over</p>
+  <ul class="contributors col-md-4">
+    <p>1. October 2016</p>
     <li>
       <%= link_to "My Argument is Wrong, But", wrong_argument_path, data: { turbolinks: false } %>
       <p>Eli Zibin</p>
@@ -14,37 +14,28 @@
       <p>Jacquelyn Ross</p>
     </li>
   </ul>
-  <div id="issue-one-images" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner" role="listbox">
+  <div id="issue-one-images" class="col-md-8 carousel slide" data-ride="carousel">
+    <div class="carousel-inner float-right" role="listbox">
       <div class="carousel-item active">
-        <%= image_tag "charcuterie-2", class: "img-fluid d-block" %>
+        <%= image_tag "goldstone_01", class: "img-fluid" %>
       </div>
       <div class="carousel-item">
-        <%= image_tag "charcuterie-3", class: "img-fluid d-block" %>
+        <%= image_tag "goldstone_02", class: "img-fluid" %>
       </div>
-      <div class="carousel-item mx-auto">
-        <%= image_tag "charcuterie-I-4", class: "img-fluid d-block" %>
+      <div class="carousel-item">
+        <%= image_tag "goldstone_03", class: "img-fluid" %>
       </div>
-      <div class="carousel-item mx-auto">
-        <%= image_tag "goldstone_01", class: "img-fluid d-block" %>
-      </div>
-      <div class="carousel-item mx-auto">
-        <%= image_tag "goldstone_02", class: "img-fluid d-block" %>
-      </div>
-      <div class="carousel-item mx-auto">
-        <%= image_tag "goldstone_03", class: "img-fluid d-block" %>
-      </div>
-      <div class="carousel-item mx-auto">
-        <%= image_tag "goldstone_04", class: "img-fluid d-block" %>
+      <div class="carousel-item">
+        <%= image_tag "goldstone_04", class: "img-fluid" %>
       </div>
     </div>
     <!-- <a class="carousel-control-prev" href="#issue-one-images" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a> -->
-    <a class="carousel-control-next" href="#issue-one-images" role="button" data-slide="next">
+    <!-- <a class="carousel-control-next" href="#issue-one-images" role="button" data-slide="next"> -->
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-    </a>
+    <!-- </a> -->
   </div>
 </section>

@@ -10,7 +10,7 @@ document.addEventListener("turbolinks:load", function(){
       families: ['Asap:400,700,400italic,700italic', 'Source Code Pro']
     },
     active: function() {
-      loadStyles()
+      // loadStyles()
     }
   });
 });

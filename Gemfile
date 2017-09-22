@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+ruby '2.4.2'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -34,6 +34,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem "alongslide"
 gem "treetop"
+gem "pry"
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

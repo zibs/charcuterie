@@ -227,6 +227,16 @@ html, body {
   }
 }
 
+.mobile-wrap {
+ div.footnotes {
+   p {
+     font-size: 0.7em;
+     font-family: 'SimSun';
+     line-height: 1.1em;
+   }
+ }
+}
+
 //
 // #frames .panels [data-alongslide-id=sixth-page].panel {
 //   p {

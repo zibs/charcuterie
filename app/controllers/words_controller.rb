@@ -2,7 +2,7 @@ class WordsController < ApplicationController
   def index
     @words = Word.alphabetize_into_rn_section_list
     puts @words
-    render json: {words: @words, count: Word.count, first_id: @words[:first_id], last_id: @words[:last_id] }
+    render json: {words: @words, count: Word.count}
   end
 
   def show

@@ -10,6 +10,7 @@ class Word < ApplicationRecord
     end
     {section_list: section_list, list_view: list_view, first_id: first.id, last_id: last.id}
   end
+  
 
 
 end

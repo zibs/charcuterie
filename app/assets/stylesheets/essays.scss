@@ -18,7 +18,7 @@
 
 body {
   font-family: 'larish_neue_semibold';
-  // overflow-y: hidden;
+  
 }
 .site-wrap {
   padding-top: 25px;
@@ -61,7 +61,6 @@ body {
   }
   li {
     position: relative;
-    margin-left: 15px;
     margin-bottom: 15px;
     a {
       position: relative;
@@ -75,14 +74,23 @@ body {
   }
 }
 
+#issue-one-images, #issue-two-images {
+  padding-right: 0px !important;
+}
 .issue {
   margin-bottom: 100px;
   .carousel-item {
+    
     min-width: 300px;
+    justify-content: flex-end;
   }
   img {
-    max-height: 410.5px;
-
+    // max-width:auto;
+    // max-height:100%;
+    // max-width:100%;
+    object-fit:contain;
+    object-position: 0% 0%;
+    max-height: 610.5px;
   }
 }
 
@@ -99,31 +107,32 @@ body {
 }
 .about-section  {
   .charc-logo {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-transform: uppercase;
+    // font-size: 1.2em;
+    // font-weight: bold;
+    // text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
   }
   .masthead {
     margin-bottom: 35px;
+    font-family: 'larish_neue_semibold';
   }
   p {
-    font-family: 'SimSun', serif, sans-serif;
-    line-height: 18px;
-    font-size: 0.8em;
-    padding-right: 5em;
+    // font-family: 'SimSun', serif, sans-serif;
+    // line-height: 18px;
+    // font-size: 0.8em;
+    // padding-right: 5em;
     // text-align: justify;
   }
 }
 
 
 .order-section {
-  font-family: 'SimSun', serif, sans-serif;
+  font-family: 'larish_neue_semibold';
  ul {
   list-style-type: none;
   padding-left: 0;
-  font-size: 0.8em;
+
   line-height: 1.2em;
  }
  a {
