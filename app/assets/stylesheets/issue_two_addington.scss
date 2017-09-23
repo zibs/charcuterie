@@ -9,12 +9,12 @@
     color: black;
     font-family: 'larish_neue_semibold';
     div.intro-card {
-        margin-top: 2%;
-        height: 90%;
+        margin-top: 9%;
+        height: 60%;
         width: 30%;
-        left: 10%;
+        left: 2%;
         position: absolute;
-        background-color: white;
+        background-color: #FFFFFF;
         z-index: 15;
         font-weight: bold;
         border: 2px solid black;
@@ -25,11 +25,18 @@
             margin-right: 15px;
         }
     }
-    img.looking {
-        max-height: 600px;
-        position: absolute; // left: 20%;
-        right: 0;
-        float: right;
+    img.cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .close {
+        position: absolute;
+        z-index: 1000;
+        a {
+            color: rgb(0, 0, 0);
+            font-family: "SimSun";
+        }
     }
     p.byline {
         font-family: 'SimSun';
@@ -44,5 +51,57 @@
         position: absolute;
         margin: 5%;
         bottom: 0;
+    }
+}
+
+#frames .panels [data-alongslide-id=addington-second-page].panel {
+    color: white;
+    background-color: #41047A;
+    font-family: 'larish_neue_semibold';
+    div.row {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 0.8em;
+        line-height: 20px;
+        text-align: justify;
+    }
+}
+#frames .panels [data-alongslide-id=addington-third-page].panel {
+    color: white;
+    background-color: #41047A;
+    font-family: 'larish_neue_semibold';
+    div.row {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 0.8em;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .second {
+        margin-top: 7%;
+    }
+}
+#frames .panels [data-alongslide-id=addington-fourth-page].panel {
+    color: white;
+    background-color: #41047A;
+    font-family: 'larish_neue_semibold';
+    div.row {
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 0.8em;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .second {
+        margin-top: 7%;
     }
 }
