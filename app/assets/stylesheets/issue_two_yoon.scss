@@ -1,0 +1,108 @@
+#frames .panels [data-alongslide-id=intro-yoon].panel h4 {
+    font-family: 'larish_neue_semibold';
+    padding-right: 0%; // position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#frames .panels [data-alongslide-id=intro-yoon].panel {
+    color: black;
+    font-family: 'larish_neue_semibold';
+    div.intro-card {
+        margin-top: 20%;
+        height: 50%;
+        width: 30%;
+        left: 66%;
+        position: absolute;
+        background-color: white;
+        z-index: 15;
+        font-weight: bold;
+        border: 2px solid black;
+        h4 {
+            margin-right: 15px
+        }
+        p {
+            margin-right: 15px;
+        }
+    }
+    img.cover {
+        position: absolute; 
+        top: 0;
+        left: 0;
+    }
+    p.byline {
+        font-family: 'SimSun';
+        font-size: 0.5em;
+        margin-left: 5%
+    }
+    p.bio {
+        text-indent: 0;
+        position: relative;
+        font-family: 'SimSun';
+        font-size: 0.5em;
+        position: absolute;
+        margin: 5%;
+        bottom: 0;
+    }
+    .close {
+        position: absolute;
+        z-index: 1000;
+        a {
+        color: rgb(255, 255, 255);
+        font-family: "SimSun";
+        }
+    }
+}
+
+#frames .panels [data-alongslide-id=yoon-second-page].panel {
+    color: white;
+    background-color: #2E2E2E;
+
+    font-family: 'larish_neue_semibold';
+    div.row {
+        margin-top: 15%;
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 1em;
+    }
+    span.loud {
+        font-size: 1.5em;
+    }
+}
+
+#frames .panels [data-alongslide-id=yoon-third-page].panel {
+    color: white;
+    background-color: #2E2E2E;
+
+    font-family: 'larish_neue_semibold';
+    div.row {
+        margin-top: 15%;
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 1em;
+    }
+    span.loud {
+        font-size: 1.4em;
+        font-style: italic;
+    }
+}
+
+#frames .panels [data-alongslide-id=yoon-fourth-page].panel {
+    color: white;
+    background-color: #2E2E2E;
+
+    font-family: 'larish_neue_semibold';
+    div.row {
+        margin-top: 10%;
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 1em;
+    }
+    span.loud {
+        font-size: 1.4em;
+        font-style: italic;
+    }
+}

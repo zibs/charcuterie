@@ -1,0 +1,48 @@
+#frames .panels [data-alongslide-id=intro-addington].panel h4 {
+    font-family: 'larish_neue_semibold';
+    padding-right: 0%; // position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#frames .panels [data-alongslide-id=intro-addington].panel {
+    color: black;
+    font-family: 'larish_neue_semibold';
+    div.intro-card {
+        margin-top: 2%;
+        height: 90%;
+        width: 30%;
+        left: 10%;
+        position: absolute;
+        background-color: white;
+        z-index: 15;
+        font-weight: bold;
+        border: 2px solid black;
+        h4 {
+            margin-right: 15px
+        }
+        p {
+            margin-right: 15px;
+        }
+    }
+    img.looking {
+        max-height: 600px;
+        position: absolute; // left: 20%;
+        right: 0;
+        float: right;
+    }
+    p.byline {
+        font-family: 'SimSun';
+        font-size: 0.5em;
+        margin-left: 5%
+    }
+    p.bio {
+        text-indent: 0;
+        position: relative;
+        font-family: 'SimSun';
+        font-size: 0.5em;
+        position: absolute;
+        margin: 5%;
+        bottom: 0;
+    }
+}
