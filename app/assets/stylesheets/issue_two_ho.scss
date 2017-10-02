@@ -8,11 +8,12 @@
 #frames .panels [data-alongslide-id=intro-ho].panel {
     color: black;
     font-family: 'larish_neue_semibold';
+    background-color: #ab0c0c;
     div.intro-card {
         margin-top: 2%;
-        height: 90%;
-        width: 30%;
-        left: 10%;
+        height: 50%;
+        width: 40%;
+        left: 30%;
         position: absolute;
         background-color: white;
         z-index: 15;
@@ -44,5 +45,62 @@
         position: absolute;
         margin: 5%;
         bottom: 0;
+    }
+}
+
+#frames .panels [data-alongslide-id=ho-second-page].panel {
+    color: white;
+    background-color: #ab0c0c;
+    font-family: 'larish_neue_semibold';
+    div.row {
+        
+    }
+    p {
+        line-height: 20px;
+        margin-bottom: 25px;
+        font-size: 0.8em;
+    }
+    span.loud {
+        font-size: 1.5em;
+    }
+}
+#frames .panels [data-alongslide-id=ho-third-page].panel {
+    color: white;
+    background-color: #ab0c0c;
+    font-family: 'larish_neue_semibold';
+    div.row {
+        
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 0.8em;
+    }
+    span.loud {
+        font-size: 1.5em;
+    }
+}
+    #frames .panels [data-alongslide-id=ho-fourth-page].panel,
+    #frames .panels [data-alongslide-id=ho-fifth-page].panel,
+    #frames .panels [data-alongslide-id=ho-sixth-page].panel,
+    #frames .panels [data-alongslide-id=ho-seventh-page].panel,
+    #frames .panels [data-alongslide-id=ho-eighth-page].panel,
+    #frames .panels [data-alongslide-id=ho-ninth-page].panel,
+    #frames .panels [data-alongslide-id=ho-tenth-page].panel,
+#frames .panels [data-alongslide-id=ho-eleventh-page].panel {
+    .ho-space {
+        margin-top: 100px;
+    }
+    color: white;
+    background-color: #ab0c0c;
+    font-family: 'larish_neue_semibold';
+    div.row {
+        
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 0.8em;
+    }
+    span.loud {
+        font-size: 1.5em;
     }
 }
