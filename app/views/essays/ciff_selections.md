@@ -3,8 +3,101 @@
     <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
 
     <div class="intro-card">
-      <h4>CIFF Selections</h4>
+      <h4>SNAPSHOTS OF THE 34TH CAIRO INTERNATIONAL FILM FESTIVAL OFFICIAL SELECTION</h4>
       <p class ="byline">by Steffanie Ling</p>
-      <p class ="bio">Jacquelyn Ross is a writer and critic based in Vancouver and Toronto. She edits the literary journal Young Adult, and her art criticism has been published in Canada and internationally. Recent book projects include Mayonnaise, a collection of poems (2016), and Drawings on Yellow Paper, a collaboration with artist Katie Lyle (forthcoming August 2016). She runs Blank Cheque Press from the comfort of her living room, and is currently at work on her first book of stories.</p>
+      <p class ="bio">Steffanie Ling is a writer, editor and critic. Her books are Nascar (Blank Cheque, 2016) and Cuts of Thin Meat (Spare Room, 2015). She is co-editor of Charcuterie.</p>
     </div>
-    <img class= "looking img-fluid" src="../assets/ross-1.png" alt="Looking Listening">
+    <img class= "cover img-fluid" src="../assets/steffmimosa.jpg" alt="Mimosa">
+
+    + panel ling-second-page fullscreen fade-out
+
+    <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
+    <div class="second-card">
+      <h4>Stopover (Voir du pays), 2016 Dir. Delphine and Muriel Coulin</h4>
+      <p class ="txt"> Delpine and Muriel Coulin’s Stopover is a film that happens over the course of three uneasy days. It portrays a troop of
+        French soldiers who have landed in Cyprus for military decompression and compulsory group therapy after a successfully
+        completed mission in Afghanistan. The moment the soldiers step into the resort’s zombie-like Spring Breakers atmosphere,
+        a game of “spot the crazies” begins between the recently embattled infantry and their characterless superiors. Some
+        of them indulge in the fun the resort has to offer, and some are not able to get over the traumas of war so quickly
+        before frolicking in a swimming pool and fist pumping on a terrace. The plot follows two childhood friends, Aurore
+        and Marine, and indeed, the rest of their company is male.</p>
+        <p class ="txt">Overly congratulating the Coulin’s portrayal of women in a profession helmed mainly by men subjects the film to an extremely
+    limited reading. This film would cease to exist without its female leads, but Stopover accomplishes much more than mere
+    kudos for representation. Generally, a gender bias towards men in physically demanding jobs, as well as managerial and
+    strategic roles, is a fact, and being in the military is a bit of both. Soldiers take orders: be strong, eliminate the
+    enemy. Then after that it’s layback, relax, and express yourself. Regimenting the dismissal of your emotions, your morality,
+    and ultimately your agency, is bound to precipitate some sort of psychotic break. This resort is the ultimate hostile
+    work environment, and their group therapy sessions are just the most perverse idea of team building or employee bonding
+    I’ve ever had the fortune to not partake in.</p>
+    </div>
+    <div class="third-card">
+      <p class ="txt">So, while it is worth noting that Stopover has provoked the army woman’s subjectivity in cinema to be one of urgent attention,
+            the Coulin’s decompression camp is not framed as the battle of the sexes. It is an arena that depicts the unstable
+            and disrespectful relationships that transpire between men and women as a result of such imbalanced dynamics
+            at the kind of workplace that also mingles just a bit too much with life.</p>
+        
+    </div>
+    <img class= "cover img-fluid" src="../assets/stopover.jpg" alt="Mimosa">
+
+    + panel ling-third-page fullscreen fade-out
+
+    <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
+    <div class="fourth-card">
+      <h4>Mimosa, 2016 Dir. Oliver Laxe</h4>
+      <p class ="txt">At first, Mimosa seemed to be a simple story: a caravan transports a dying Sheik to be buried with his loved ones in the
+                medieval city of Sijilmasa. When the Sheik passes mid-journey, the task is nearly abandoned. Two men who
+                don’t know the way continue on with the cargo-corpse. Later, a pseudo-mystic mechanic, and a mountain man
+                accompanied by his mute daughter join them. To watch this film is to suppress an appetite for a well-rounded
+                plot or lucid editing, but you can still feast your eyes and ears.</p>
+        <p class ="txt">As these specks of flesh traverse the unforgiving Moroccan landscape, the cinematography treats the desert and mountains
+                with ineffability that imposes a daunting presence over them. Camera-as-god. The minimal but resonant overtures
+                that overlay these shots seem to reverberate from the void between earth and sky itself. Further careful
+                attention to foley and sound editing partnered with radically stark cinematography should rectify any disgruntled
+                audience member who can’t justify the slowness of expedition or the sparse, however poignant, dialogue. When
+                they walk at night, the screen emits the darkest navy blue. Only visible are faint outlines of the horizon
+                and their bodies walking towards it, but ever-present is the sound of hooves hitting the earth and pebbles
+                skipping down a cliff.</p>
+                <p class="txt">Like any challenging work of art, if you’re open and patient with Mimosa’s form, the pace provokes the friction between people’s
+                faith in the possibility of salvation. “We’ve never done anything big in our entire life” says Said to Ahmed,
+                “this is it.” They conduct “invocations” of faith, chance operations and fits of doubt about their journey.
+                In essence though, Mimosa is a film that strikes at the heart of a cinephile who is deeply invested in how
+                a film attends to the space of the cinema itself. It will be utterly lost on a laptop.</p>
+    </div>
+
+    + panel ling-fourth-page fullscreen fade-out
+
+    <div class ="close float-left"><a href="http://charcuterie.party">&times;</a></div>
+    <div class="fifth-card">
+      <h4>Kills on Wheels (Tiszta szívvel), 2016 Dir. Atilla Till</h4>
+      <p>How wheelchair accessible is the gangster world? It’s about as accommodating as the rest, but in Atilla Till’s Kills on Wheels,
+                assumptions about confronting a disabled assassin will only result in an blood bath.</p>
+        <p>Janos Rupaszov, a ex-firefighter paralyzed from the waist down, is a very efficient hired man for a Yugoslavian crime boss,
+                Rados. His disability makes him an excellent assassin as his appearance always catches his targets off-guard.
+                His indifference towards life and death affords him a recklessness that deepens his qualifications in dangerous
+                encounters. When he rolls up, a bit of banter takes place about the fact that he’s crippled and then he blows
+                everyone away in comic book fashion. In the scenes where Rupaszov is taking care of business, so to speak,
+                awkward moments sparked by his disability puncture the typical coolness of a pre-gunfight spat, while post-gunfight
+                guttural rock music hits as the camera surveys the carnage. Till does not allow you to take the scene seriously,
+                and it’s great.</p>
+                
+    </div>
+    <div class="sixth-card">
+      <p>As the result of his efficiency, Rados tasks him with increasingly challenging jobs, so Rupaszov recruits two young men from
+                his care facility to be his accomplices. Zoli and Barba are anxious to live a little. Zoli has a spine condition
+                that confines him to a wheelchair. Barba is Zoli’s roommate. He suffers from palsy, but is capable of walking
+                and driving, though with great difficulty. Beyond being roommates, they also have a creative partnership — throughout
+                the film, there are several cuts to progress drawings of a comic that Barba and Zoli are working on together.
+                The writing of their comic book seems to align with their new hobby as accessories-to-murder. We see a trio
+                of anti-heroes execute their targets with a requisite cinematic suspension of disbelief, but the routine
+                setbacks of their disabilities is portrayed soberly. Adjacent to the action, Rupaszov struggles to wheel
+                up a steep driveway in order to flee a murder scene, Barba deals with his body odour and Zoli gives his mother
+                attitude about his upcoming surgery. We see a lonely man, and teenagers with proverbial angst.</p>
+      <p>Kills on Wheels exceeded my expectations in terms of how it would consider the disability of characters. It did so by completely
+                sublimating it into the steady pacing of the film. So, it was never the crux of my attention, though it was
+                this aspect of the story that captured my interest. As the film progressed, I periodically forgot about their
+                wheelchairs, becoming little more than a lamp or a blurry painting in the set design. I just wanted them
+                to win. We live in a moment where we are tired of seeing perfect people win. Kills on Wheels doesn’t pander
+                to cliché, even if it flirts closely with it.</p>
+                
+    </div>
+    

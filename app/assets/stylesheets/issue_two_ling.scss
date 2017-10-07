@@ -1,48 +1,327 @@
-#frames .panels [data-alongslide-id=intro-ling].panel h4 {
-    font-family: 'larish_neue_semibold';
-    padding-right: 0%; // position: absolute;
-    margin-top: 5%;
-    margin-left: 5%;
+#frames .panels [data-alongslide-id="intro-ling"].panel h4 {
+  font-family: "larish_neue_semibold";
+  padding-right: 0%; // position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
-#frames .panels [data-alongslide-id=intro-ling].panel {
+#frames .panels [data-alongslide-id="intro-ling"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("steffmimosa.jpg") no-repeat center center fixed;
+  background-size: cover;
+  div.intro-card {
+    margin-top: 22%;
+    height: 50%;
+    width: 30%;
+    left: 66%;
+    position: absolute;
+    background-color: rgb(115, 12, 12);
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid white;
+    h4 {
+      color: white;
+      margin-right: 15px;
+    }
+    p {
+      margin-right: 15px;
+    }
+  }
+  img.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  p.byline {
+    color: white;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    margin-left: 5%;
+  }
+  p.bio {
+    color: white;
+    text-indent: 0;
+    position: relative;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    position: absolute;
+    margin: 5%;
+    bottom: 0;
+  }
+  .close {
+    position: absolute;
+    z-index: 1000;
+    a {
+      color: rgb(255, 255, 255);
+      font-family: "SimSun";
+    }
+  }
+}
+#frames .panels [data-alongslide-id="ling-second-page"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("stopover.jpg") no-repeat center center fixed;
+  background-size: cover;
+  div.second-card {
+    margin-top: 1%;
+    height: 90%;
+    width: 30%;
+    left: 5%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+    h4 {
+      color: black;
+      margin-right: 15px;
+    }
+    p {
+      margin-right: 15px;
+    }
+  }
+  img.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  p.byline {
     color: black;
-    font-family: 'larish_neue_semibold';
-    div.intro-card {
-        margin-top: 2%;
-        height: 90%;
-        width: 30%;
-        left: 10%;
-        position: absolute;
-        background-color: white;
-        z-index: 15;
-        font-weight: bold;
-        border: 2px solid black;
-        h4 {
-            margin-right: 15px
-        }
-        p {
-            margin-right: 15px;
-        }
+    font-family: "SimSun";
+    font-size: 0.5em;
+    margin-left: 5%;
+  }
+  p.txt {
+    color: black;
+    text-indent: 0;
+    position: relative;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    // position: absolute;
+    margin: 5%;
+    // bottom: 0;
+  }
+  .close {
+    position: absolute;
+    z-index: 1000;
+    a {
+      color: rgb(255, 255, 255);
+      font-family: "SimSun";
     }
-    img.looking {
-        max-height: 600px;
-        position: absolute; // left: 20%;
-        right: 0;
-        float: right;
+  }
+  div.third-card {
+    margin-top: 15%;
+    height: 25%;
+    width: 40%;
+    left: 55%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+    h4 {
+      color: black;
+      margin-right: 15px;
     }
-    p.byline {
-        font-family: 'SimSun';
-        font-size: 0.5em;
-        margin-left: 5%
+    p {
+      margin-right: 15px;
     }
-    p.bio {
-        text-indent: 0;
-        position: relative;
-        font-family: 'SimSun';
-        font-size: 0.5em;
-        position: absolute;
-        margin: 5%;
-        bottom: 0;
+  }
+  img.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  p.byline {
+    color: black;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    margin-left: 5%;
+  }
+  p.txt {
+    color: black;
+    text-indent: 0;
+    position: relative;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    // position: absolute;
+    margin: 5%;
+    // bottom: 0;
+  }
+  .close {
+    position: absolute;
+    z-index: 1000;
+    a {
+      color: rgb(255, 255, 255);
+      font-family: "SimSun";
     }
+  }
+}
+
+#frames .panels [data-alongslide-id="ling-third-page"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("steffmimosa.jpg") repeat center center fixed;
+  background-size: cover;
+  div.fourth-card {
+    margin-top: 1%;
+    height: 100%;
+    width: 30%;
+    left: 25%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+    h4 {
+      color: black;
+      margin-right: 15px;
+    }
+    p {
+      margin-right: 15px;
+    }
+  }
+  img.cover {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  p.byline {
+    color: black;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    margin-left: 5%;
+  }
+  p.txt {
+    color: black;
+    text-indent: 0;
+    position: relative;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    // position: absolute;
+    margin: 5%;
+    // bottom: 0;
+  }
+  .close {
+    position: absolute;
+    z-index: 1000;
+    a {
+      color: rgb(255, 255, 255);
+      font-family: "SimSun";
+    }
+  }
+}
+
+
+
+
+
+
+#frames .panels [data-alongslide-id="ling-fourth-page"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("kills.jpg") repeat center center fixed;
+  background-size: cover;
+  div.fifth-card {
+    margin-top: 0%;
+    height: 60%;
+    width: 30%;
+    left: 5%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+    h4 {
+      color: black;
+      margin-right: 15px;
+    }
+    p {
+      margin-right: 15px;
+    }
+  }
+  img.cover {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  p.byline {
+    color: black;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    margin-left: 5%;
+  }
+  p {
+    color: black;
+    text-indent: 0;
+    position: relative;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    // position: absolute;
+    margin: 5%;
+    // bottom: 0;
+  }
+  .close {
+    position: absolute;
+    z-index: 1000;
+    a {
+      color: rgb(255, 255, 255);
+      font-family: "SimSun";
+    }
+  }
+
+  div.sixth-card {
+    margin-top: 5%;
+    height: 90%;
+    width: 30%;
+    left: 55%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+    h4 {
+      color: black;
+      margin-right: 15px;
+    }
+    p {
+      margin-right: 15px;
+    }
+  }
+  img.cover {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  p.byline {
+    color: black;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    margin-left: 5%;
+  }
+  p {
+    color: black;
+    text-indent: 0;
+    position: relative;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    // position: absolute;
+    margin: 5%;
+    // bottom: 0;
+  }
+  .close {
+    position: absolute;
+    z-index: 1000;
+    a {
+      color: rgb(255, 255, 255);
+      font-family: "SimSun";
+    }
+  }
 }
