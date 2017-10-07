@@ -1,48 +1,93 @@
-#frames .panels [data-alongslide-id=intro-carr].panel h4 {
-    font-family: 'larish_neue_semibold';
-    padding-right: 0%; // position: absolute;
-    margin-top: 5%;
-    margin-left: 5%;
+#frames .panels [data-alongslide-id="intro-carr"].panel h4 {
+  font-family: "larish_neue_semibold";
+  padding-right: 0%; // position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
-#frames .panels [data-alongslide-id=intro-carr].panel {
+#frames .panels [data-alongslide-id="intro-carr"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("tamara.jpg") no-repeat center center fixed;
+  background-size: cover;
+  div.intro-card {
+    margin-top: 30%;
+    height: 40%;
+    width: 30%;
+    left: 5%;
+    position: absolute;
+    background-color: white;
+    z-index: 15;
+    font-weight: bold;
+    border: 2px solid black;
+    h4 {
+      margin-right: 15px;
+    }
+    p {
+      margin-right: 15px;
+    }
+  }
+  img.looking {
+    max-height: 600px;
+    position: absolute; // left: 20%;
+    right: 0;
+    float: right;
+  }
+  p.byline {
+    font-family: "SimSun";
+    font-size: 0.5em;
+    margin-left: 5%;
+  }
+  p.bio {
+    text-indent: 0;
+    position: relative;
+    font-family: "SimSun";
+    font-size: 0.5em;
+    position: absolute;
+    margin: 5%;
+    bottom: 0;
+  }
+}
+
+#frames .panels [data-alongslide-id="first-panel"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("tamara1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#frames .panels [data-alongslide-id="second-panel"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("tamara2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#frames .panels [data-alongslide-id="third-panel"].panel {
+  color: black;
+  font-family: "larish_neue_semibold";
+  background: image-url("tamara3.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#frames .panels [data-alongslide-id="fourth-panel"].panel,
+#frames .panels [data-alongslide-id="fifth-panel"].panel,
+#frames .panels [data-alongslide-id="sixth-panel"].panel {
+  .container {
+    margin: 25px;
+  }
+  p {
     color: black;
-    font-family: 'larish_neue_semibold';
-    div.intro-card {
-        margin-top: 2%;
-        height: 90%;
-        width: 30%;
-        left: 10%;
-        position: absolute;
-        background-color: white;
-        z-index: 15;
-        font-weight: bold;
-        border: 2px solid black;
-        h4 {
-            margin-right: 15px
-        }
-        p {
-            margin-right: 15px;
-        }
-    }
-    img.looking {
-        max-height: 600px;
-        position: absolute; // left: 20%;
-        right: 0;
-        float: right;
-    }
-    p.byline {
-        font-family: 'SimSun';
-        font-size: 0.5em;
-        margin-left: 5%
-    }
-    p.bio {
-        text-indent: 0;
-        position: relative;
-        font-family: 'SimSun';
-        font-size: 0.5em;
-        position: absolute;
-        margin: 5%;
-        bottom: 0;
-    }
+    font-family: Asap;
+    margin-bottom: 25px;
+    font-size: 0.8em;
+    line-height: 20px;
+    text-align: justify;
+  }
+}
+
+#frames .flow [data-alongslide-id="first-structure"] {
+  p {
+    margin-bottom: 25px;
+    font-size: 0.8em;
+    line-height: 20px;
+    text-align: justify;
+  }
 }
