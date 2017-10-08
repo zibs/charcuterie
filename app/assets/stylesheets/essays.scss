@@ -18,7 +18,12 @@
 
 body {
   font-family: 'larish_neue_semibold';
-  
+}
+.copy-note {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  font-size: 12px;
 }
 .site-wrap {
   padding-top: 25px;
@@ -78,7 +83,7 @@ body {
   padding-right: 0px !important;
 }
 .issue {
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
   .carousel-item {
     
     min-width: 300px;
@@ -110,7 +115,7 @@ body {
     // font-size: 1.2em;
     // font-weight: bold;
     // text-transform: uppercase;
-    letter-spacing: 4px;
+    // letter-spacing: 4px;
     color: black;
   }
   .masthead {
