@@ -3,6 +3,4 @@ class Reader < ApplicationRecord
   validates :email, presence: true,
           uniqueness: true,
           format: VALID_EMAIL_REGEX
-
-  
 end

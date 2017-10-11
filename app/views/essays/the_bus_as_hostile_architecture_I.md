@@ -5,8 +5,8 @@
     <div class="intro-card">
       <h4>The Bus as Hostile Architecture</h4>
     
-      <p class ="byline">by Sung Pil Yoon</p>
-      <p class="bio">Sung Pil Yoon is a writer and curator. He is Director of Spare Room, a subsidiary of Rice Cooker Hair Salon Inc. a non-profit
+      <p class ="byline">by Sungpil Yoon</p>
+      <p class="bio">Sungpil Yoon is a writer and curator. He is Director of Spare Room, a subsidiary of Rice Cooker Hair Salon Inc. a non-profit
     organization that explores the composition of theories and objects through the lens of artistic practices. Yoon is a
     graduate of the UBC Art History department and currently works in Vancouver from 222, a studio building in Chinatown.</p>
     </div>
