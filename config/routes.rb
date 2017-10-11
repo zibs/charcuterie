@@ -13,6 +13,6 @@ Rails.application.routes.draw do
   get "The-Empty-Husk-Condition" => "essays#the_empty_husk_condition", as: :empty_husk
   get "Adventures-from-the-Third-Bureau" => "essays#adventures_from_the_third_bureau", as: :third_bureau
   get "The-Bus-as-Hostile-Architecture" => "essays#the_bus_as_hostile_architecture_I", as: :bus_I
-  get "CIFF-Official-Selection-Reviews" => "essays#ciff_selections", as: :ciff_selections
-  get "Misogyny-as-Orientation" => "essays#misogyny_as_orientation", as: :mis_o
+  get "Snapshots-of-the-34th-Cairo-International-Film-Festival" => "essays#ciff_selections", as: :ciff_selections
+  get "Troubling-Gender-Assumptions -in-Miranda-Julys -The-First-Bad-Man" => "essays#misogyny_as_orientation", as: :mis_o
 end
