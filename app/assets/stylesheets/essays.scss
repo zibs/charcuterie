@@ -147,3 +147,9 @@ body {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 10px;
 }
+.special-link {
+  color: black;
+  &:hover {
+    color: black;
+  }
+}

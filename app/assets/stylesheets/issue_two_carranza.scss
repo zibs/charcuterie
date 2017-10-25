@@ -85,6 +85,16 @@
     line-height: 20px;
     text-align: justify;
   }
+  .footnotes {
+    p {
+       color: black;
+       font-family: "larish_neue_semibold";
+       margin-bottom: 25px;
+       font-size: 0.5em;
+       line-height: 20px;
+       text-align: justify;
+    }
+  }
 }
 
 #frames .flow [data-alongslide-id="first-structure"] {
