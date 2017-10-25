@@ -1,9 +1,21 @@
 @import "bootstrap";
 @font-face {
   font-family:'SimSun';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   src:font-url('SimSun.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  // -webkit-font-smoothing: antialiased;
+  // text-rendering: optimizeLegibility;
+  // speak: none;
+  // font-style: normal;
+  // font-weight: normal;
+  // font-variant: normal;
+  // text-transform: none;
+  // line-height: 1;
+  // -webkit-font-smoothing: subpixel-antialiased;;
+  // text-rendering: geometricPrecision;
   // src:font-url('icofonts.eot?#iefix') format('embedded-opentype')
 }
 
@@ -12,6 +24,8 @@
   src:font-url('larish_neue_semibold.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -73,6 +87,8 @@ html, body {
   a {
     color: rgb(85, 85, 85);
     font-family: "SimSun";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
 }
 #content-display a {

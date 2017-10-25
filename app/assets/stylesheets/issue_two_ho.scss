@@ -34,6 +34,8 @@
     }
     p.byline {
         font-family: 'SimSun';
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
         font-size: 0.5em;
         margin-left: 5%
     }
@@ -41,6 +43,8 @@
         text-indent: 0;
         position: relative;
         font-family: 'SimSun';
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
         font-size: 0.5em;
         position: absolute;
         margin: 5%;
