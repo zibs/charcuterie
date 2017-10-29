@@ -33,9 +33,9 @@
         </section>
       </section>
 
-      <section id="info" class="info-section active">
-        <%= link_to "Charcuterie 3 - 105 Keefer Speeches", "105-speeches.pdf", target: :blank, class: 'special-link' %>
-      </section>  
+      <!-- <section id="info" class="info-section active">
+        
+      </section>   -->
 
       <section id="order" class="hidden order-section">
         <p>To order a copy of Charcuterie, please email us at <a href="mailto:info@charcuterie.party">info@charcuterie.party</a></p>
@@ -52,6 +52,7 @@
       </section>
     </section>
     <section class="issues-wrapper offset-lg-1 col-lg-7 offset-sm-1 col-sm-11">
+      <%= render "issues/three" %>
       <%= render "issues/two" %>
       <%= render "issues/one" %>
     </section>
