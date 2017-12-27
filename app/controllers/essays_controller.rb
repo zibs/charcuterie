@@ -66,6 +66,7 @@ class EssaysController < ApplicationController
      else
       request.variant = :desktop
      end
+     request.variant = :mobile
      @variant = request.variant
    end
 
