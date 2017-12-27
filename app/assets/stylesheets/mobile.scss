@@ -1,5 +1,27 @@
 .mobile-wrap {
- img {
-     margin-bottom: 15px;
- }
+  img {
+    margin-bottom: 15px;
+  }
+  p.writer-bio {
+    font-size: 0.9em;
+    font-family: 'SimSun';
+  }
+  p.image-caption {
+    font-size: 0.7em;
+    font-family: 'SimSun';
+    font-style: italic;
+  }
+  p.cited {
+    font-size: 0.9em;
+    font-family: 'SimSun';
+    text-decoration: underline;
+    display: block;  
+  }
+  p.mobile-footnote {
+    font-size: 0.9em;
+    font-family: 'SimSun';
+  }
+  div.notes {
+    margin-top: 100px;
+  }
 }

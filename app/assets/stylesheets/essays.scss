@@ -2,16 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @font-face {
-  font-family:'SimSun';
-  src:font-url('SimSun.ttf') format('truetype');
+  font-family: 'SimSun';
+  src: font-url('SimSun.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   // src:font-url('icofonts.eot?#iefix') format('embedded-opentype')
 }
 
 @font-face {
-  font-family:'larish_neue_semibold';
-  src:font-url('larish_neue_semibold.otf') format('opentype');
+  font-family: 'larish_neue_semibold';
+  src: font-url('larish_neue_semibold.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,6 +19,15 @@
 body {
   font-family: 'larish_neue_semibold';
 }
+
+.masthead {
+  font-family: SimSun;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
 .copy-note {
   position: fixed;
   bottom: 15px;
@@ -35,6 +44,26 @@ body {
   font-family: 'SimSun', serif, sans-serif;
   line-height: 18px;
   font-size: 0.8em;
+}
+
+.image-wrap {
+  position: relative;
+  background-color: 'red';
+  .index-img {
+    position: absolute;
+    top: 0px;
+    &:nth-child(1) {
+      z-index: 0;
+    }
+    &:nth-child(2) {
+      z-index: 1;
+      top: 100px;
+    }
+    &:nth-child(3) {
+      z-index: 2;
+      top: 250px;
+    }
+  }
 }
 
 .site-map {
@@ -79,13 +108,13 @@ body {
   }
 }
 
-#issue-one-images, #issue-two-images {
+#issue-one-images,
+#issue-two-images {
   padding-right: 0px !important;
 }
 .issue {
   // margin-bottom: 100px;
   .carousel-item {
-    
     min-width: 300px;
     justify-content: flex-end;
   }
@@ -93,7 +122,7 @@ body {
     // max-width:auto;
     // max-height:100%;
     // max-width:100%;
-    object-fit:contain;
+    object-fit: contain;
     object-position: 0% 0%;
     max-height: 610.5px;
   }
@@ -102,7 +131,10 @@ body {
 .center-img {
   margin: auto;
   position: fixed;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 9999;
   max-height: 250px;
 }
@@ -110,7 +142,7 @@ body {
 .hidden {
   display: none;
 }
-.about-section  {
+.about-section {
   .charc-logo {
     // font-size: 1.2em;
     // font-weight: bold;
@@ -131,20 +163,20 @@ body {
   }
 }
 
-
 .order-section {
   font-family: 'larish_neue_semibold';
- ul {
-  list-style-type: none;
-  padding-left: 0;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
 
-  line-height: 1.2em;
- }
- a {
-   color: #ED1C24;
- }
+    line-height: 1.2em;
+  }
+  a {
+    color: #ed1c24;
+  }
 }
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   width: 10px;
 }
 .special-link {
