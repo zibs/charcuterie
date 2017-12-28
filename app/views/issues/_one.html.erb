@@ -1,44 +1,23 @@
 <section class="row issue">
-  <ul class="contributors col-md-4">
-    <p>Charcuterie 1: You should eat something before coming over</p>
-    <li>
-      <%= link_to "My Argument is Wrong, But", wrong_argument_path, data: { turbolinks: false } %>
-      <p>Eli Zibin</p>
-    </li>
-    <li>
-      <%= link_to "No Studio, No Privilege", no_studio_path,  data: { turbolinks: false } %>
-      <p>Jacobo Zambrano</p>
-    </li>
-    <li>
-      <%= link_to "How to Tame a Fly", tame_fly_path, data: { turbolinks: false }%>
-      <p>Jacquelyn Ross</p>
-    </li>
-  </ul>
-  <div id="issue-one-images" class="col-md-8 carousel slide" data-interval="6000" data-ride="carousel">
-    <div class="carousel-inner float-right" role="listbox">
-      <div class="carousel-item active">
-        <%= image_tag "charc1", class: "img-fluid" %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "goldstone_01", class: "img-fluid" %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "goldstone_02", class: "img-fluid" %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "goldstone_03", class: "img-fluid" %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "goldstone_04", class: "img-fluid" %>
-      </div>
-    </div>
-    <!-- <a class="carousel-control-prev" href="#issue-one-images" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a> -->
-    <!-- <a class="carousel-control-next" href="#issue-one-images" role="button" data-slide="next"> -->
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    <!-- </a> -->
-  </div>
+    <ul class="contributors col-md-10">
+        <p class="issue-title">Charcuterie 1: You should eat something before coming over</p>
+        <li>
+            <%= link_to "My Argument is Wrong, But", wrong_argument_path, data: { turbolinks: false } %>
+                <p class="index-byline">Eli Zibin on why good and bad poetry is a fallacy </p>
+                <p>There are no poems which “fail”, and when they do what we conceive to be as "failing", they are only more interesting for partly exposing today’s aesthetic and linguistic slant.
+                </p>
+        </li>
+        <li>
+            <%= link_to "No Studio, No Privilege", no_studio_path,  data: { turbolinks: false } %>
+                <p class="index-byline">Jacobo Zambrano on Spare Room and other independent project spaces </p>
+                <p>For the course of 1 year, Spare Room has hosted 6 projects, numerous podcasts, a film room and an audio room and many undocumented conversations about what collective consciousness is and how does one develop it in our community.
+                </p>
+        </li>
+        <li>
+            <%= link_to "How to Tame a Fly", tame_fly_path, data: { turbolinks: false }%>
+                <p class="index-byline">Jacquelyn Ross on flies, space travel and Jacquelyn Kiyomi Gordon</p>
+                <p>I’m googling “How to Tame a Fly” now for inspiration, and am briefly transfixed by a 55-second YouTube clip of a man gently prodding a black fly with the point of a chopping knife. The fly doesn’t budge, too busy cleaning itself.
+                </p>
+        </li>
+    </ul>
 </section>

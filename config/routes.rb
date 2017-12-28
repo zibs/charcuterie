@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root "essays#index"
+  get "Potentially-Asked-Questions" => "essays#paqs", as: :paqs
+  get "Contributors" => "essays#authors", as: :authors
+  get "Information" => "essays#info", as: :info
   get "No-Studio-No-Privilege" => "essays#no_studio_no_privilege", as: :no_studio
   get "My-Argument-Is-Wrong-But" => "essays#my_argument_is_wrong_but", as: :wrong_argument
   get "How-to-Tame-a-Fly" => "essays#how_to_tame_a_fly", as: :tame_fly
