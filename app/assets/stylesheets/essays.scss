@@ -19,6 +19,9 @@
 body {
   font-family: 'larish_neue_semibold';
 }
+// p {
+//   // line-height: 20px; 
+// }
 
 .masthead {
   margin-top: 0px;
@@ -111,7 +114,10 @@ body {
       position: relative;
       z-index: 10000;
       color: black;
-      text-decoration: underline;
+      // text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
     }
     p {
       line-height: 0.9em;
@@ -124,7 +130,7 @@ body {
   padding-right: 0px !important;
 }
 .issue {
-  // margin-bottom: 100px;
+  margin-bottom: 25px;
   .carousel-item {
     min-width: 300px;
     justify-content: flex-end;
@@ -147,21 +153,21 @@ body {
   bottom: 0;
   right: 0;
   z-index: 9999;
-  max-height: 200px;
+  max-height: 0px;
 }
 
 .hidden {
   display: none;
 }
-.about-section {
-  .charc-logo {
-    // font-size: 1.2em;
-    // font-weight: bold;
-    // text-transform: uppercase;
-    // letter-spacing: 4px;
-    color: black;
-  }
+
+a.charc-logo {
+  // font-size: 1.2em;
+  // font-weight: bold;
+  // text-transform: uppercase;
+  // letter-spacing: 4px;
+  color: #ed1c24;
 }
+
 
 
 

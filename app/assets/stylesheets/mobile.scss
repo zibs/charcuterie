@@ -3,45 +3,51 @@
     margin-bottom: 15px;
   }
 }
-  p.writer-bio {
-    font-size: 0.9em;
-    font-family: 'SimSun';
-  }
-  p.image-caption {
-    font-size: 0.7em;
-    font-family: 'SimSun';
-    font-style: italic;
-  }
-  p.cited {
-    font-size: 0.9em;
-    font-family: 'SimSun';
-    text-decoration: underline;
-    display: block;  
-  }
-  p.mobile-footnote {
-    font-size: 0.9em;
-    font-family: 'SimSun';
-  }
-  div.notes {
-    margin-top: 100px;
-  }
+p.writer-bio {
+  font-size: 0.9em;
+  font-family: 'SimSun';
+}
+p.image-caption {
+  font-size: 0.7em;
+  font-family: 'SimSun';
 
-
+}
+p.cited {
+  font-size: 0.9em;
+  font-family: 'SimSun';
+  text-decoration: underline;
+  display: block;
+}
+p.mobile-footnote {
+  font-size: 0.9em;
+  font-family: 'SimSun';
+}
+div.notes {
+  margin-top: 100px;
+}
 
 .header {
   margin-top: 15px;
   margin-bottom: 25px;
 }
-.qa, .block {
+.qa,
+.block {
   margin-bottom: 50px;
 }
-.question, .secondary-header {
+.question,
+.secondary-header {
   margin-bottom: 15px;
-  text-decoration: underline;
-  // font-family: "SimSun"
+  // text-decoration: underline;
+  
 }
 .answer {
-  
+font-family: "SimSun";
+//  text-indent: 25px;
+ margin-top: 8px;
+}
+.editorial-intervention {
+  font-size: 0.9em;
+  font-family: 'SimSun';
 }
 
 .index-byline {
@@ -56,4 +62,26 @@
   &:hover {
     color: black;
   }
+}
+.issue ul > li > p {
+  line-height: 18px;
+}
+
+.charc1 {
+  color: #ed1c24;
+}
+.charc2 {
+color:#5D0772
+}
+.charc3 {
+color: #327BBB
+}
+.page {
+  margin-bottom: 100px;
+}
+.mobile-wrap > h1 {
+  text-align: center;
+}
+.mobile-wrap > p.byline {
+  text-align: center;
 }
