@@ -10,7 +10,6 @@ p.writer-bio {
 p.image-caption {
   font-size: 0.7em;
   font-family: 'SimSun';
-
 }
 p.cited {
   font-size: 0.9em;
@@ -38,12 +37,11 @@ div.notes {
 .secondary-header {
   margin-bottom: 15px;
   // text-decoration: underline;
-  
 }
 .answer {
-font-family: "SimSun";
-//  text-indent: 25px;
- margin-top: 8px;
+  font-family: 'SimSun';
+  //  text-indent: 25px;
+  margin-top: 8px;
 }
 .editorial-intervention {
   font-size: 0.9em;
@@ -71,17 +69,49 @@ font-family: "SimSun";
   color: #ed1c24;
 }
 .charc2 {
-color:#5D0772
+  color: #5d0772;
 }
 .charc3 {
-color: #327BBB
+  color: #327bbb;
 }
 .page {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+  
+}
+.mobile-wrap {
+  padding-bottom: 100px;
 }
 .mobile-wrap > h1 {
   text-align: center;
 }
 .mobile-wrap > p.byline {
   text-align: center;
+}
+
+.back-wrap {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  .back-img {
+    height: 45px;
+  }
+}
+
+.home-logo-img > img {
+  height: 75px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+.issue-logo-img > img {
+  height: 75px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.issue-logo-img-left > img {
+  height: 75px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
