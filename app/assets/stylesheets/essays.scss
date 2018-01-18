@@ -20,7 +20,7 @@ body {
   font-family: 'larish_neue_semibold';
 }
 // p {
-//   // line-height: 20px; 
+//   // line-height: 20px;
 // }
 
 .masthead {
@@ -29,21 +29,22 @@ body {
   font-size: 0.9em;
   // letter-spacing: 0.09em;
   color: black;
-  font-family: "SimSun";
+  font-family: 'SimSun';
   a {
     color: black;
     text-decoration: underline;
   }
+  width: 50%;
 }
 
 .copy-note {
   position: fixed;
   bottom: 15px;
-  left: 15px;
+  right: 15px;
   font-size: 14px;
-   a {
-     color: black;
-   }
+  a {
+    color: black;
+  }
 }
 .site-wrap {
   padding-top: 25px;
@@ -167,11 +168,7 @@ a.charc-logo {
   // letter-spacing: 4px;
   color: #ed1c24;
   text-decoration: none;
-  
 }
-
-
-
 
 .order-section {
   font-family: 'larish_neue_semibold';
@@ -193,5 +190,34 @@ a.charc-logo {
   color: black;
   &:hover {
     color: black;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .masthead {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .masthead {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .masthead {
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) {
+  .masthead {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    width: 50%;
   }
 }

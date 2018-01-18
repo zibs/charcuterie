@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get "Potentially-Asked-Questions" => "essays#paqs", as: :paqs
   get "Contributors" => "essays#authors", as: :authors
   get "Information" => "essays#info", as: :info
+  get "you-should-eat-something-before-coming-over" => "essays#charc_one", as: :charc_one
+  get "future-decapitations-under-posh-hats" => "essays#charc_two", as: :charc_two
   get "No-Studio-No-Privilege" => "essays#no_studio_no_privilege", as: :no_studio
   get "My-Argument-Is-Wrong-But" => "essays#my_argument_is_wrong_but", as: :wrong_argument
   get "How-to-Tame-a-Fly" => "essays#how_to_tame_a_fly", as: :tame_fly

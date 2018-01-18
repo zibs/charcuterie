@@ -1,7 +1,7 @@
 class EssaysController < ApplicationController
   before_action :detect_device_format
   before_action :set_essay_title_for_mobile
-  before_action :get_markdown_for_desktop, except: [:index, :paqs, :authors, :info]
+  before_action :get_markdown_for_desktop, except: [:index, :paqs, :authors, :info, :charc_one, :charc_two]
 
   def no_studio_no_privilege
     render_show
@@ -50,6 +50,10 @@ class EssaysController < ApplicationController
   def authors
   end
   def info
+  end
+  def charc_one
+  end
+  def charc_two
   end
 
 

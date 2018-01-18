@@ -1,6 +1,9 @@
-<section class="row issue">
+<section class="row issue one">
     <ul class="contributors col-md-10">
-        <p class="issue-title">Charcuterie 1: <span class="charc1">You should eat something before coming over</span></p>
+        <!-- <%= link_to charc_one_path, class: "issue-link" do %> -->
+            <p class="issue-title">Charcuterie 1: <span class="charc1">You should eat something before coming over</span></p>
+        <!-- <% end%> -->
+
         <li>
             <%= link_to "#{"My Argument is Wrong, But".upcase}", wrong_argument_path, data: { turbolinks: true } %>
                 <p class="index-byline">Eli Zibin on why good and bad poetry is a fallacy</p>
@@ -20,4 +23,12 @@
                 </p>
         </li>
     </ul>
+    
+    <!-- <section class="contributors col-md-2">
+      <li>
+            <%= link_to "#{"EVICT YOUR LANDLORD".upcase}", wrong_argument_path, data: { turbolinks: true } %>
+                <p>Vincent Tao ....
+                </p>
+        </li>
+    </section> -->
 </section>

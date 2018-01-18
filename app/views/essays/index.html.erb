@@ -1,19 +1,19 @@
 <main class="container-fluid site-wrap">
-    <p class="masthead">
+    <p class="masthead mx-auto">
         <%= link_to "C H A R C U T E R I E", root_path, class: 'charc-logo' %>
             strives to provide a forum for experimental writing and informed polemics without pedantry. It assembles a polyphony of inquiry
             and documents the messy landscape of opinion and critique that unravels in close proximity to where we work,
             live and make art in Vancouver.</p>
     <%= link_to image_tag("charc-logo", class: "img-fluid center-img"), root_path %>
         <article class="row">
-            <section class="about-section col-lg-4 col-sm-10">
+            <section class="about-section col-lg-4 col-sm-12 col-12">
                 <div class="image-wrap">
                     <%= image_tag "charc-3-3", class: "img-fluid index-img" %>
                     <%= image_tag "charcuter_2", class: "img-fluid index-img" %>
                     <%= image_tag "charcuter_1", class: "img-fluid index-img" %>
                 </div>
             </section>
-            <section class="issues-wrapper offset-lg-1 col-lg-6 offset-sm-1 col-sm-11">
+            <section class="issues-wrapper col-lg-6  col-sm-12 col-12">
                 <%= render "issues/three" %>
                 <%= render "issues/two" %>
                 <%= render "issues/one" %>
