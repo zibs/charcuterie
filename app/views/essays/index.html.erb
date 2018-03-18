@@ -9,8 +9,12 @@
             <section class="about-section col-lg-4 col-sm-12 col-12">
                 <div class="image-wrap">
                     <%= image_tag "charc-3-3", class: "img-fluid index-img" %>
-                    <%= image_tag "charcuter_2", class: "img-fluid index-img" %>
+                    <%= link_to charc_two_path do %>
+                        <%= image_tag "charcuter_2", class: "img-fluid index-img" %>
+                    <% end %>
+                    <%= link_to charc_one_path do %>
                     <%= image_tag "charcuter_1", class: "img-fluid index-img" %>
+                    <% end %>
                 </div>
             </section>
             <section class="issues-wrapper col-lg-6  col-sm-12 col-12">
