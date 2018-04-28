@@ -1,7 +1,7 @@
 class EssaysController < ApplicationController
   before_action :detect_device_format
   before_action :set_essay_title_for_mobile
-  before_action :get_markdown_for_desktop, except: [:index, :paqs, :authors, :info, :charc_one, :charc_two, :charc_three]
+  # before_action :get_markdown_for_desktop, except: [:index, :paqs, :authors, :info, :charc_one, :charc_two, :charc_three]
 
   def no_studio_no_privilege
     render_show
@@ -60,6 +60,30 @@ class EssaysController < ApplicationController
   end
   
   def charc_three
+  end
+
+  def bus_two
+    render_show
+  end
+
+  def flatten_exp
+    render_show
+  end
+
+  def seven_years
+    render_show
+  end
+
+  def two_mistakes
+    render_show
+  end
+
+  def nice_poem
+    render_show
+  end
+
+  def tell_them
+    render_show
   end
 
 

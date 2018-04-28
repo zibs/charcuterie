@@ -21,4 +21,12 @@ Rails.application.routes.draw do
   get "The-Bus-as-Hostile-Architecture" => "essays#the_bus_as_hostile_architecture_I", as: :bus_I
   get "Snapshots-of-the-34th-Cairo-International-Film-Festival" => "essays#ciff_selections", as: :ciff_selections
   get "Troubling-Gender-Assumptions -in-Miranda-Julys -The-First-Bad-Man" => "essays#misogyny_as_orientation", as: :mis_o
+  # 3
+  get "The-Bus-As-Hostile-Architecture-II" => "essays#bus_two", as: :bus_two
+  get "When-Exhibitions-Flatten-Black-Experience" => "essays#flatten_exp", as: :flatten_exp
+  get "Seven-Years-of-Tenderness" => "essays#seven_years", as: :seven_years
+  get "Two-Mistakes" => "essays#two_mistakes", as: :two_mistakes
+  get "Nice-Poem" => "essays#nice_poem", as: :nice_poem
+  get "Book-Review-Tell-Them-I-Said-NO" => "essays#tell_them", as: :tell_them
+
 end

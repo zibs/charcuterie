@@ -1,10 +1,55 @@
 <section class="row issue three">
     <ul class="contributors col-md-10">
-        <li style="text-decoration: none;">
-            <%= link_to "#{"Notice of Public Hearing is a pamphlet of artist and writers against the rezoning of 105 Keefer".upcase}", "105-speeches.pdf", target: :blank, class: 'special-link' %>
-                <p>Vince Tao, Stephan Wright, Byron Peters, Kay Higgins, Dan Pon, listen chen 陳聽春</p>
-                <p>Six transcripts of artists, writers, arts administrators, gallery technicians, and artworkers speaking before City Council at the public hearing regarding the rezoning of 105 Keefer Street from a Chinatown Historic Area (HA-1A District) to a Comprehensive Development (CD-1 District).
-                </p>
-        </li>
+        <%= link_to charc_three_path, class: "issue-link" do %>
+            <p class="issue-title">Charcuterie 3:
+                <span class="charc3">need not pander</span>
+                <% end %>
+            </p>
+            <li style="text-decoration: none;">
+                <%= link_to "#{"Notice of Public Hearing is a pamphlet of artist and writers against the rezoning of 105 Keefer".upcase}", "105-speeches.pdf", target: :blank, class: 'special-link' %>
+                    <p>Vince Tao, Stephan Wright, Byron Peters, Kay Higgins, Dan Pon, listen chen 陳聽春</p>
+                    <p>Six transcripts of artists, writers, arts administrators, gallery technicians, and artworkers speaking
+                        before City Council at the public hearing regarding the rezoning of 105 Keefer Street from a Chinatown
+                        Historic Area (HA-1A District) to a Comprehensive Development (CD-1 District).
+                    </p>
+            </li>
+            <li>
+                <%= link_to "#{"The Bus as Hostile Architecture II".upcase}", bus_two_path, data: { turbolinks: true }%>
+                    <p class="index-byline">Sungpil Yoon takes the bus: Part II of Bus as Hostile Architecture</p>
+                    <p>They share the bus with me. / Sometimes I play a game / As to where they will sit /I am always right
+                        / Because people are predictable / But mostly / Because patterns form / subconsciously.
+                    </p>
+            </li>
+            <li>
+                <%= link_to "#{"Nice Poem".upcase}", nice_poem_path, data: { turbolinks: true }%>
+                    <p class="index-byline">Tiziana La Melia writes a Nice Poem </p>
+                                        <p>Nice, but. <br>
+Nice, but there’s something, I don’t know.</p>
+                    
+</p>
+            </li>
+            <li>
+                <%= link_to "#{"Book Review: “TELL THEM I SAID NO” BY MARTIN HERBERT".upcase}", tell_them_path, data: { turbolinks: true }%>
+                    <p class="index-byline">Bopha Chhay on refusal in a review of Martin Herbert’s “Tell Them I Said No”</p>
+                    <p>Each chapter begins to reveal the limitations that the art system has on the practices of these artists, notably tensions that arise along the lines of class, gender and race. 
+            </li>
+            <li>
+                <%= link_to "#{"Two Mistakes".upcase}", two_mistakes_path, data: { turbolinks: true }%>
+                    <p class="index-byline">Jamie Hilder buys a shelf </p>
+                    <p>I like to talk during movies. I use Brecht as a way to justify it as a radical political gesture</p>
+            </li>
+            <li>
+                <%= link_to "#{"When Exhibitions Flatten Black Experience".upcase}", flatten_exp_path, data: { turbolinks: true }%>
+                    <p class="index-byline">Denise Ryner reflects on three exhibitions</p>
+                    <p>In that year I worked as an independent curator, paid curatorial intern, sessional instructor
+        in curatorial studies, volunteer gallery board member, gallery assistant in a commercial space and copywriter of
+        exhibition didactics.</p>
+            </li>
+            <li>
+                <%= link_to "#{"Seven Years of Tenderness:
+Alice Diop's Vers La Tendresse At 2017 DOXA Documentary Film Festival".upcase}", seven_years_path, data: { turbolinks: true }%>
+                    <p class="index-byline">Casey Wei investigates tenderness and the politics of love</p>
+                    <p>In this district, the notorious neuf trois, there is no peach to bruise, no cartoon cat and dog, no back issues of National Geographic</p>
+            </li>
     </ul>
 </section>
