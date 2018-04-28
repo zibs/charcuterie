@@ -7,18 +7,7 @@
     <%= link_to image_tag("charc-logo", class: "img-fluid center-img"), root_path %>
     <%= image_tag('charc-4-invite', class:'img-fluid mx-auto d-block invite') %>
         <article class="row">
-            <section class="about-section col-lg-4 col-sm-12 col-12">
-                <div class="image-wrap">
-                    <%= image_tag "charc-3-3", class: "img-fluid index-img" %>
-                    <%= link_to charc_two_path do %>
-                        <%= image_tag "charcuter_2", class: "img-fluid index-img" %>
-                    <% end %>
-                    <%= link_to charc_one_path do %>
-                    <%= image_tag "charcuter_1", class: "img-fluid index-img" %>
-                    <% end %>
-                </div>
-            </section>
-            <section class="issues-wrapper col-lg-6  col-sm-12 col-12">
+            <section class="issues-wrapper col-lg-12  col-sm-12 col-12">
                 <%= render "issues/three" %>
                 <%= render "issues/two" %>
                 <%= render "issues/one" %>

@@ -1,40 +1,54 @@
 <section class="row issue two">
-  <ul class="contributors col-md-10">
-  <%= link_to charc_two_path, class: "issue-link" do %>
-    <p class="issue-title">Charcuterie 2: <span class="charc2">future decapitations under posh hats</span>
-    <% end %> 
-</p>
-    <li>
-      <%= link_to "#{"The Empty Husk Condition".upcase}", empty_husk_path, data: { turbolinks: true } %>
-      <p class="index-byline">Fabiola Carranza visits exhibitions in Los Angeles by K8 Hardy and Tamara Henderson</p>
-      <p>There is a fine edge of appeal to having the place of art be an empty and hollowed site. Artists can repeatedly seem-to-be detached there. You could even say the contemporary art scene holds the throne to this probe on emptiness.
+  <section class="col-md-4">
+    <%= link_to charc_two_path do %>
+      <%= image_tag "charcuter_2", class: "img-fluid index-img" %>
+        <% end %>
+  </section>
+  <ul class="contributors col-md-8">
+    <%= link_to charc_two_path, class: "issue-link" do %>
+      <p class="issue-title">Charcuterie 2:
+        <span class="charc2">future decapitations under posh hats</span>
+        <% end %>
       </p>
-    </li>
-    <li>
-      <%= link_to "#{"Adventures from the Third Bureau".upcase}", third_bureau_path,  data: { turbolinks: true } %>
-      <p class="index-byline">Stacey Ho facilitates an outer body trip in her short story portraying agents in pursuit of an escapee.</p>
-      <p>The heart is meat. I am learning to be you I am not you cannot you in this harmonized vibration a massive chorus echo sentiment our presences gather together in a lake of song.
-      </p>
-      
-    </li>
-    <li>
-      <%= link_to "#{"The Bus as Hostile Architecture I".upcase}", bus_I_path, data: { turbolinks: true }%>
-      <p class="index-byline">Sungpil Yoon takes the bus: Part 1 of Bus as Hostile Architecture</p>
-      <p>Have you ever seen what freedom looks like inside a bus? Have you ever seen hot coffee thrown at a man’s face, or a well-dressed grad student calmly vomiting on the side of the centre aisle for at least 30 seconds, or a man clipping his toenails in the back of the bus.
+      <li>
+        <%= link_to "#{"The Empty Husk Condition".upcase}", empty_husk_path, data: { turbolinks: true } %>
+          <p class="index-byline">Fabiola Carranza visits exhibitions in Los Angeles by K8 Hardy and Tamara Henderson</p>
+          <p>There is a fine edge of appeal to having the place of art be an empty and hollowed site. Artists can repeatedly
+            seem-to-be detached there. You could even say the contemporary art scene holds the throne to this probe on emptiness.
+          </p>
+      </li>
+      <li>
+        <%= link_to "#{"Adventures from the Third Bureau".upcase}", third_bureau_path,  data: { turbolinks: true } %>
+          <p class="index-byline">Stacey Ho facilitates an outer body trip in her short story portraying agents in pursuit of an escapee.</p>
+          <p>The heart is meat. I am learning to be you I am not you cannot you in this harmonized vibration a massive chorus
+            echo sentiment our presences gather together in a lake of song.
+          </p>
 
-      </p>
-    </li>
-    <li>
-      <%= link_to "#{"Snapshots of the 34th Cairo International Film Festival".upcase}", ciff_selections_path, data: { turbolinks: true }%>
-      <p class="index-byline">Steffanie Ling reviews three films </p>
-      <p>Delphine and Muriel Coulin’s "Stopover" — This film would cease to exist without its female leads, but Stopover accomplishes much more than mere kudos for representation. / Oliver Laxe’s "Mimosa" — To watch this film is to suppress an appetite for a well-rounded plot or lucid editing / Atilla Till’s "Kills on Wheels" — How wheelchair accessible is the gangster world? 
-      </p>
-    </li>
-    <li>
-      <%= link_to "#{"Troubling Gender Assumptions  in Miranda July’s  'The First Bad Man'".upcase}", mis_o_path, data: { turbolinks: true }%>
-      <p class="index-byline">Maxwell Addington reviews Miranda July’s "The First Bad Man" </p>
-      </p>
-      <p>If authors wrote more stories that questioned and undermined unconscious, unchecked normativity, readers might be less likely to lazily dismiss work like July’s as “quirky”.</p>
-    </li>
+      </li>
+      <li>
+        <%= link_to "#{"The Bus as Hostile Architecture I".upcase}", bus_I_path, data: { turbolinks: true }%>
+          <p class="index-byline">Sungpil Yoon takes the bus: Part 1 of Bus as Hostile Architecture</p>
+          <p>Have you ever seen what freedom looks like inside a bus? Have you ever seen hot coffee thrown at a man’s face,
+            or a well-dressed grad student calmly vomiting on the side of the centre aisle for at least 30 seconds, or a
+            man clipping his toenails in the back of the bus.
+
+          </p>
+      </li>
+      <li>
+        <%= link_to "#{"Snapshots of the 34th Cairo International Film Festival".upcase}", ciff_selections_path, data: { turbolinks: true }%>
+          <p class="index-byline">Steffanie Ling reviews three films </p>
+          <p>Delphine and Muriel Coulin’s "Stopover" — This film would cease to exist without its female leads, but Stopover
+            accomplishes much more than mere kudos for representation. / Oliver Laxe’s "Mimosa" — To watch this film is to
+            suppress an appetite for a well-rounded plot or lucid editing / Atilla Till’s "Kills on Wheels" — How wheelchair
+            accessible is the gangster world?
+          </p>
+      </li>
+      <li>
+        <%= link_to "#{"Troubling Gender Assumptions  in Miranda July’s  'The First Bad Man'".upcase}", mis_o_path, data: { turbolinks: true }%>
+          <p class="index-byline">Maxwell Addington reviews Miranda July’s "The First Bad Man" </p>
+          </p>
+          <p>If authors wrote more stories that questioned and undermined unconscious, unchecked normativity, readers might
+            be less likely to lazily dismiss work like July’s as “quirky”.</p>
+      </li>
   </ul>
 </section>
