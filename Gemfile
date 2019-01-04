@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.5.0'
+# ruby '2.5.0'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -31,6 +31,7 @@ gem 'haml'
 gem 'underscore-rails'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 # gem "alongslide", github: "zibs/alongslide", branch: :master, ref: "4bbdc9eb8d66b582984adce90f2c08b61e3e051f"
+gem "sprockets"
 
 gem "alongslide"
 gem "treetop"
